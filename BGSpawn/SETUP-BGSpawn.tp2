@@ -1,0 +1,779 @@
+BACKUP ~BGSpawn/backup~
+
+//AUTHOR ~Melkor Morgoth75~
+SUPPORT ~http://www.shsforums.net/files/file/740-bgspawn/~
+VERSION ~1.2~
+
+README ~BGSpawn/Help/BGSpawnReadme.doc~
+
+// Copied directly from BGT-Tweaks code (ascension64)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//PATCH_MACRO are_update_offset
+//for addition of extended headers, this macro updates offsets of all extended headers that occur later than the extended header modified, then updates offsets stored in the variables
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Variables that need to be defined:
+// -are_update_offset_increment
+// -are_update_offset_datatype (can be actor, info, spawn, entrance, container, item, vertex, ambient, variable, door, explored, anim, tiled, song, rest, automap)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Other requirements:
+// -all types of %are_update_offset_datatype%_off must have been read
+// -the specified %are_update_offset_datatype%_num must have been read
+//////////////////////////////////////////////////////////////////////////////////////////////////
+DEFINE_PATCH_MACRO are_update_offset BEGIN
+  SPRINT are_update_offset_datatype_off "%are_update_offset_datatype%_off"
+  SPRINT are_update_offset_datatype_num "%are_update_offset_datatype%_num"
+
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "actor")=0))
+            AND (("%actor_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%actor_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x54 ("%actor_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "info")=0))   
+            AND (("%info_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%info_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x5c ("%info_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "spawn")=0))
+            AND (("%spawn_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%spawn_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x60 ("%spawn_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "entrance")=0))
+            AND (("%entrance_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%entrance_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x68 ("%entrance_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "container")=0))
+            AND (("%container_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%container_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x70 ("%container_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "item")=0))
+            AND (("%item_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%item_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x78 ("%item_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "vertex")=0))
+            AND (("%vertex_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%vertex_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x7c ("%vertex_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "ambient")=0))
+            AND (("%ambient_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%ambient_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x84 ("%ambient_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "variable")=0))
+            AND (("%variable_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%variable_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x88 ("%variable_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "door")=0))
+            AND (("%door_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%door_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xa8 ("%door_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "explored")=0))
+            AND (("%explored_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%explored_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xa0 ("%explored_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "anim")=0))
+            AND (("%anim_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%anim_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xb0 ("%anim_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "tiled")=0))
+            AND (("%tiled_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%tiled_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xb8 ("%tiled_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "song")=0))
+            AND (("%song_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%song_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xbc ("%song_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "rest")=0))
+            AND (("%rest_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%rest_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xc0 ("%rest_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "automap")=0))
+            AND (("%automap_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%automap_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xc4 ("%automap_off%" + "%are_update_offset_increment%")
+  END
+
+  READ_LONG 0x54 actor_off
+  READ_LONG 0x5c info_off
+  READ_LONG 0x60 spawn_off
+  READ_LONG 0x68 entrance_off
+  READ_LONG 0x70 container_off
+  READ_LONG 0x78 item_off
+  READ_LONG 0x7c vertex_off
+  READ_LONG 0x84 ambient_off
+  READ_LONG 0x88 variable_off
+  READ_LONG 0xa8 door_off
+  READ_LONG 0xa0 explored_off
+  READ_LONG 0xb0 anim_off
+  READ_LONG 0xb8 tiled_off
+  READ_LONG 0xbc song_off
+  READ_LONG 0xc0 rest_off
+  READ_LONG 0xc4 automap_off
+
+END
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+ALWAYS
+  ACTION_IF NOT VARIABLE_IS_SET ee_spawn THEN BEGIN
+    ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    ACTION_DEFINE_ARRAY fl#reload BEGIN game END  // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
+    // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
+	LAF HANDLE_CHARSETS
+	INT_VAR
+	  infer_charsets = 1
+	STR_VAR
+	  tra_path = ~BGSpawn/tra~
+      noconvert_array = fl#noconvert
+	  reload_array = fl#reload
+	  default_language = english
+	END
+    
+    // Load EE-specific text (usability section removed from item descriptions)
+    ACTION_IF GAME_IS ~eet~ THEN BEGIN
+      OUTER_SET ee_spawn = 1
+      // Load English first in case some entries not available in the chosen language (as in LANGUAGE for setup.tra)
+//    LOAD_TRA ~BGSpawn/tra/%LANGUAGE%/game_ee.tra~
+	END ELSE BEGIN
+	  OUTER_SET ee_spawn = 0
+	END  
+  END
+END
+
+LANGUAGE 
+"English"  "english"  ~BGSpawn/tra/english/setup.tra~  ~BGSpawn/tra/english/game.tra~
+
+LANGUAGE 
+"German [by 10th]"  "german"  ~BGSpawn/tra/german/setup.tra~  ~BGSpawn/tra/german/game.tra~
+
+LANGUAGE 
+"Italian [by Ilot]"  "italian"  ~BGSpawn/tra/italian/setup.tra~ ~BGSpawn/tra/italian/game.tra~
+
+LANGUAGE 
+"French [by Isaya]"  "french"  ~BGSpawn/tra/french/setup.tra~ ~BGSpawn/tra/french/game.tra~
+
+LANGUAGE 
+"Russian [by Prowler]"  "russian"  ~BGSpawn/tra/russian/setup.tra~  ~BGSpawn/tra/russian/game.tra~
+
+LANGUAGE 
+"Castellano [Por Lisandro]"  "Spanish"  ~BGSpawn/tra/Spanish/setup.tra~  ~BGSpawn/tra/Spanish/game.tra~
+
+LANGUAGE
+"¼òÌåÖÐÎÄ [by Delmarey and Magician]"  "chs"  ~BGSpawn/tra/chs/setup.tra~  ~BGSpawn/tra/chs/game.tra~
+
+LANGUAGE
+%ÁcÅé¤¤¤å [by Delmarey and Magician]%  %chs%  %BGSpawn/tra/cht/setup.tra%  %BGSpawn/tra/cht/game.tra%
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                             //
+// Melkor Morgoth75 - BGSpawn Levelled System (thanks to ascension64 for most of the tp2 code) //
+//                                                                                             //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+BEGIN @1101
+
+REQUIRE_PREDICATE (GAME_IS ~bgt eet~) @1
+
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	OUTER_SPRINT "Undercity" "AR7223"
+	OUTER_SPRINT "WSewers" "AR7324"
+	OUTER_SPRINT "CentralSewers" "AR7325"
+	OUTER_SPRINT "ESewers" "AR7326"
+	OUTER_SPRINT "FishingVillage" "AR8300"
+	OUTER_SPRINT "CloakwoodDruids" "AR8400"
+	OUTER_SPRINT "CloakwoodWyverns" "AR8500"
+	OUTER_SPRINT "CloakwoodMines" "AR8600"
+	OUTER_SPRINT "CloakwoodMines_L3" "AR8602"
+	OUTER_SPRINT "BanditCamp" "AR8700"
+	OUTER_SPRINT "CloakwoodNest" "AR8800"
+	OUTER_SPRINT "CloakwoodLodge" "AR7000"
+	OUTER_SPRINT "Peldvale" "AR8900"
+	OUTER_SPRINT "Candlekeep_Catacombs_L2" "AR6519"
+	OUTER_SPRINT "LionsWay" "AR6600"
+	OUTER_SPRINT "CoastWay" "AR6900"
+	OUTER_SPRINT "Larswood" "AR9000"
+	OUTER_SPRINT "SpiderWood" "AR9100"
+	OUTER_SPRINT "ShipwrecksCoast" "AR9200"
+	OUTER_SPRINT "HighHedge" "AR7100"
+	OUTER_SPRINT "Temple" "AR9300"
+	OUTER_SPRINT "MutaminsGarden" "AR9400"
+	OUTER_SPRINT "Lighthouse" "AR9500"
+	OUTER_SPRINT "RedCanyons" "AR9600"
+	OUTER_SPRINT "SouthBeregostRoad" "AR9700"
+	OUTER_SPRINT "Ulcaster" "AR9799"
+	OUTER_SPRINT "UlcasterRuins" "AR9798"
+	OUTER_SPRINT "Gullykin" "AR9900"
+	OUTER_SPRINT "ArchaeologicalSite" "ARA100"
+	OUTER_SPRINT "FishermansLake" "AR3100"
+	OUTER_SPRINT "NorthNashkelRoad" "AR3200"
+	OUTER_SPRINT "LonelyPeaks" "AR3300"
+	OUTER_SPRINT "FirewineBridge" "AR3400"
+	OUTER_SPRINT "BearRiver" "AR3499"
+	OUTER_SPRINT "XvartVillage" "AR3498"
+	OUTER_SPRINT "NashkelCarnival" "AR3800"
+	OUTER_SPRINT "ValleyoftheTombs" "AR3900"
+	OUTER_SPRINT "GnollStronghold" "AR4100"
+	OUTER_SPRINT "DryadFalls" "AR4200"
+	OUTER_SPRINT "FirewineRuins" "AR3401"
+	OUTER_SPRINT "FireLeafForest" "AR4300"
+	OUTER_SPRINT "NashkelMines" "AR4400"
+	OUTER_SPRINT "GibberlingMountains" "AR4600"
+	OUTER_SPRINT "DurlagsTower" "ARD000"
+	OUTER_SPRINT "DurlagsTower_D1" "ARD011"
+	OUTER_SPRINT "DurlagsTower_D4" "ARD014"
+	OUTER_SPRINT "IsleofBalduranN" "ARW500"
+	OUTER_SPRINT "IsleofBalduranS" "ARW000"
+	OUTER_SPRINT "WerewolfCaverns" "ARW012"
+	OUTER_SPRINT "Encounter_Plains1" "AR4700"
+	OUTER_SPRINT "Encounter_Plains2" "AR4701"
+	OUTER_SPRINT "Encounter_Canyon1" "AR4800"
+	OUTER_SPRINT "Encounter_Canyon2" "AR4801"
+	OUTER_SPRINT "Encounter_Cliff1" "AR4900"
+	OUTER_SPRINT "Encounter_Cliff2" "AR4901"
+	OUTER_SPRINT "Encounter_Grassland1" "AR5100"
+	OUTER_SPRINT "Encounter_Grassland2" "AR5101"
+	OUTER_SPRINT "Encounter_Forest1" "AR5300"
+	OUTER_SPRINT "Encounter_Forest2" "AR5301"
+	OUTER_SPRINT "Encounter_Road" "AR5400"
+	OUTER_SPRINT "spawnPerc" 100
+	OUTER_SPRINT "spawnRem" 0
+END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+	OUTER_SPRINT "Undercity" "BG0123"
+	OUTER_SPRINT "WSewers" "BG0224"
+	OUTER_SPRINT "CentralSewers" "BG0225"
+	OUTER_SPRINT "ESewers" "BG0226"
+	OUTER_SPRINT "FishingVillage" "BG1400"
+	OUTER_SPRINT "CloakwoodDruids" "BG1600"
+	OUTER_SPRINT "CloakwoodWyverns" "BG1700"
+	OUTER_SPRINT "CloakwoodMines" "BG1800"
+	OUTER_SPRINT "CloakwoodMines_L3" "BG1802"
+	OUTER_SPRINT "BanditCamp" "BG1900"
+	OUTER_SPRINT "CloakwoodNest" "BG2100"
+	OUTER_SPRINT "CloakwoodLodge" "BG2200"
+	OUTER_SPRINT "Peldvale" "BG2400"
+	OUTER_SPRINT "Candlekeep_Catacombs_L2" "BG2619"
+	OUTER_SPRINT "LionsWay" "BG2700"
+	OUTER_SPRINT "CoastWay" "BG2800"
+	OUTER_SPRINT "Larswood" "BG2900"
+	OUTER_SPRINT "SpiderWood" "BG3000"
+	OUTER_SPRINT "ShipwrecksCoast" "BG3100"
+	OUTER_SPRINT "HighHedge" "BG3200"
+	OUTER_SPRINT "Temple" "BG3400"
+	OUTER_SPRINT "MutaminsGarden" "BG3500"
+	OUTER_SPRINT "Lighthouse" "BG3600"
+	OUTER_SPRINT "RedCanyons" "BG3700"
+	OUTER_SPRINT "SouthBeregostRoad" "BG3800"
+	OUTER_SPRINT "Ulcaster" "BG3900"
+	OUTER_SPRINT "UlcasterRuins" "BG3901"
+	OUTER_SPRINT "Gullykin" "BG4000"
+	OUTER_SPRINT "ArchaeologicalSite" "BG4100"
+	OUTER_SPRINT "FishermansLake" "BG4200"
+	OUTER_SPRINT "NorthNashkelRoad" "BG4300"
+	OUTER_SPRINT "LonelyPeaks" "BG4400"
+	OUTER_SPRINT "FirewineBridge" "BG4500"
+	OUTER_SPRINT "BearRiver" "BG4600"
+	OUTER_SPRINT "XvartVillage" "BG4700"
+	OUTER_SPRINT "NashkelCarnival" "BG4900"
+	OUTER_SPRINT "ValleyoftheTombs" "BG5000"
+	OUTER_SPRINT "GnollStronghold" "BG5100"
+	OUTER_SPRINT "DryadFalls" "BG5200"
+	OUTER_SPRINT "FirewineRuins" "BG5201"
+	OUTER_SPRINT "FireLeafForest" "BG5300"
+	OUTER_SPRINT "NashkelMines" "BG5400"
+	OUTER_SPRINT "GibberlingMountains" "BG5500"
+	OUTER_SPRINT "DurlagsTower" "BG0500"
+	OUTER_SPRINT "DurlagsTower_D1" "BG0511"
+	OUTER_SPRINT "DurlagsTower_D4" "BG0514"
+	OUTER_SPRINT "IsleofBalduranN" "BG1500"
+	OUTER_SPRINT "IsleofBalduranS" "BG2000"
+	OUTER_SPRINT "WerewolfCaverns" "BG2012"
+	OUTER_SPRINT "Encounter_Plains1" "BG5600"
+	OUTER_SPRINT "Encounter_Plains2" "BG5601"
+	OUTER_SPRINT "Encounter_Canyon1" "BG5700"
+	OUTER_SPRINT "Encounter_Canyon2" "BG5701"
+	OUTER_SPRINT "Encounter_Cliff1" "BG5800"
+	OUTER_SPRINT "Encounter_Cliff2" "BG5801"
+	OUTER_SPRINT "Encounter_Grassland1" "BG5900"
+	OUTER_SPRINT "Encounter_Grassland2" "BG5901"
+	OUTER_SPRINT "Encounter_Forest1" "BG6000"
+	OUTER_SPRINT "Encounter_Forest2" "BG6001"
+	OUTER_SPRINT "Encounter_Road" "BG6100"
+	OUTER_SPRINT "spawnPerc" 100
+	OUTER_SPRINT "spawnRem" 0
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY file_names BEGIN
+	"AR3100" => "BG4200"
+	"AR3200" => "BG4300"
+	"AR3300" => "BG4400"
+	"AR3400" => "BG4500"
+	"AR3401" => "BG5201"
+	"AR3498" => "BG4700"
+	"AR3499" => "BG4600"
+	"AR3800" => "BG4900"
+	"AR3900" => "BG5000"
+	"AR4100" => "BG5100"
+	"AR4200" => "BG5200"
+	"AR4300" => "BG5300"
+	"AR4400" => "BG5400"
+	"AR4600" => "BG5500"
+	"AR6519" => "BG2619"
+	"AR6600" => "BG2700"
+	"AR6900" => "BG2800"
+	"AR7000" => "BG2200"
+	"AR7100" => "BG3200"
+	"AR7223" => "BG0123"
+	"AR7324" => "BG0224"
+	"AR7325" => "BG0225"
+	"AR7326" => "BG0226"
+	"AR8300" => "BG1400"
+	"AR8400" => "BG1600"
+	"AR8500" => "BG1700"
+	"AR8600" => "BG1800"
+	"AR8602" => "BG1802"
+	"AR8700" => "BG1900"
+	"AR8800" => "BG2100"
+	"AR8900" => "BG2400"
+	"AR9000" => "BG2900"
+	"AR9100" => "BG3000"
+	"AR9200" => "BG3100"
+	"AR9300" => "BG3400"
+	"AR9400" => "BG3500"
+	"AR9500" => "BG3600"
+	"AR9600" => "BG3700"
+	"AR9700" => "BG3800"
+	"AR9798" => "BG3901"
+	"AR9799" => "BG3900"
+	"AR9900" => "BG4000"
+	"ARA100" => "BG4100"
+	"ARD000" => "BG0500"
+	"ARD011" => "BG0511"
+	"ARD014" => "BG0514"
+	"ARW000" => "BG2000"
+	"ARW012" => "BG2012"
+	"ARW500" => "BG1500"
+END
+
+// For EET
+ACTION_IF GAME_IS ~eet~ BEGIN
+	ACTION_PHP_EACH file_names AS bgt => eet BEGIN
+	// Note: These files are renamed, not copied to override, because a) the latter would require unnecessary //
+	// meddling with ascension64's BGT-Tweaks code below, and b) they're not used by the game engine anyway.  //
+	  MOVE ~BGSpawn/info/%bgt%.nfp~ ~BGSpawn/info/%eet%.nfp~
+	  MOVE ~BGSpawn/vertex/%bgt%.vtx~ ~BGSpawn/vertex/%eet%.vtx~
+	END
+	// Note: We cannot juggle the random encounter area files the same way, since they need to //
+	// be patched with area codes that do not always match the file names (e.g. AR4701).       //
+END
+
+// Copy all new cre files
+
+COPY ~BGSpawn/cre/sbearbl.CRE~ ~override~
+COPY ~BGSpawn/cre/sbeargr.CRE~ ~override~
+COPY ~BGSpawn/cre/sdruid3.CRE~ ~override~
+COPY ~BGSpawn/cre/selorc01.CRE~ ~override~
+COPY ~BGSpawn/cre/sghastgr.CRE~ ~override~
+COPY ~BGSpawn/cre/shobsl01.CRE~ ~override~
+COPY ~BGSpawn/cre/rogtro.CRE~ ~override~
+	SAY 0x8 @1306
+	SAY 0xc @1306
+COPY ~BGSpawn/cre/rogtroxd.CRE~ ~override~
+	SAY 0x8 @1306
+	SAY 0xc @1306
+COPY ~BGSpawn/cre/rogtroxd.SPL~ ~override~
+COPY ~BGSpawn/cre/sxvart.CRE~ ~override~
+	SAY 0x8 @1303
+	SAY 0xc @1303
+COPY ~BGSpawn/cre/KOBLDGD.CRE~ ~override~
+	SAY 0x8 @1302
+	SAY 0xc @1302
+COPY ~BGSpawn/cre/skobchie.CRE~ ~override~
+	SAY 0x8 @1301
+	SAY 0xc @1301
+COPY ~BGSpawn/cre/sdograb.CRE~ ~override~
+COPY ~BGSpawn/cre/sanditc.CRE~ ~override~
+COPY ~BGSpawn/cre/srevnnt.CRE~ ~override~
+COPY ~BGSpawn/cre/ssnake01.CRE~ ~override~
+COPY ~BGSpawn/cre/szombl01.CRE~ ~override~
+COPY ~BGSpawn/cre/sgnoll.CRE~ ~override~
+	SAY 0x8 @1304
+	SAY 0xc @1304
+COPY ~BGSpawn/cre/sironarc.CRE~ ~override~
+	SAY 0x8 @1305
+	SAY 0xc @1305
+
+
+// Compiling Scripts for Creatures
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/sgnoll.baf~
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/rogtro.baf~
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/rogtroxd.baf~
+
+// END of Scripts for CRE
+
+
+// Copied directly from BGT-Tweaks code (ascension64)
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~FW01230.BCS~ THEN BEGIN // Check if BGT-Tutu levelled spawn is installed 
+
+COPY ~BGSpawn/info~ ~BGSpawn/info~
+  SPRINT source "%SOURCE_RES%"
+  SET info_vertex_num_new_total = 0
+
+  PATCH_IF NOT ("%SOURCE_SIZE%" = 0) BEGIN
+    FOR (i=0;i<10000;i+=1) BEGIN
+      READ_ASCII ("%i%"*0xc4) info_data_new (196)
+      READ_ASCII (("%i%" + 1)*0xc4) buffer ELSE 10000 (196) 
+      READ_SHORT ("%i%"*0xc4 + 0x2a) info_vertex_num_new
+      SET info_vertex_num_new_total += "%info_vertex_num_new%"
+
+      INNER_ACTION BEGIN
+        COPY_EXISTING ~%source%.ARE~ ~override/%source%.ARE~
+          READ_LONG 0x54 actor_off
+          READ_LONG 0x5c info_off
+          READ_LONG 0x60 spawn_off
+          READ_LONG 0x68 entrance_off
+          READ_LONG 0x70 container_off
+          READ_LONG 0x78 item_off
+          READ_LONG 0x7c vertex_off
+          READ_LONG 0x84 ambient_off
+          READ_LONG 0x88 variable_off
+          READ_LONG 0xa8 door_off
+          READ_LONG 0xa0 explored_off
+          READ_LONG 0xb0 anim_off
+          READ_LONG 0xb8 tiled_off
+          READ_LONG 0xbc song_off
+          READ_LONG 0xc0 rest_off
+          READ_LONG 0xc4 automap_off
+
+          READ_SHORT 0x5a info_num
+          READ_SHORT 0x64 spawn_num
+          READ_SHORT 0x74 container_num
+          READ_SHORT 0x80 vertex_num
+          READ_SHORT 0xa4 door_num
+
+         
+          FOR (n=0;n<"%spawn_num%";n+=1) BEGIN
+            WRITE_SHORT ("%spawn_off%" + "%n%"*0xc8 + 0x86) 0
+          END
+
+         
+          SPRINT are_update_offset_datatype "info"
+          SET are_update_offset_increment = 196
+          LAUNCH_PATCH_MACRO are_update_offset
+
+   
+          INSERT_BYTES "%info_off%" 196
+          WRITE_EVALUATED_ASCII "%info_off%" "%info_data_new%" #196
+          WRITE_LONG ("%info_off%" + 0x2c) 0 //set first vertex index to zero
+          SET info_num +=1
+          WRITE_SHORT 0x5a "%info_num%"
+
+         
+          SPRINT are_update_offset_datatype "vertex"
+          SET are_update_offset_increment = 0x4 * "%info_vertex_num_new%"
+          LAUNCH_PATCH_MACRO are_update_offset
+
+     
+          FOR (j=0;j<"%info_vertex_num_new%";j+=1) BEGIN
+            
+            INNER_ACTION BEGIN
+              COPY ~BGSpawn/vertex/%source%.vtx~ ~BGSpawn/vertex/%source%.vtx~
+                READ_LONG (("%j%" + "%info_vertex_num_new_total%" - "%info_vertex_num_new%")*0x4) vertex_data_new
+              BUT_ONLY_IF_IT_CHANGES
+            END          
+
+            READ_SHORT 0x80 vertex_num
+            INSERT_BYTES ("%vertex_off%") 4
+            WRITE_LONG ("%vertex_off%") "%vertex_data_new%"
+            SET vertex_num +=1
+            WRITE_SHORT 0x80 "%vertex_num%"
+          END
+
+         
+          FOR (k=1;k<"%info_num%";k+=1) BEGIN
+            READ_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) info_vertex_first_idx
+            WRITE_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) ("%info_vertex_first_idx%" + "%info_vertex_num_new%")
+          END
+
+    
+          FOR (l=0;l<"%door_num%";l+=1) BEGIN
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) door_vertex_open_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) door_vertex_closed_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) door_vertex_impede_closed_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) door_vertex_impede_open_first_idx
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) ("%door_vertex_open_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) ("%door_vertex_closed_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) ("%door_vertex_impede_closed_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) ("%door_vertex_impede_open_first_idx%" + "%info_vertex_num_new%")
+          END
+
+      
+          FOR (m=0;m<"%container_num%";m+=1) BEGIN
+            READ_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) container_vertex_first_idx
+            WRITE_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) ("%container_vertex_first_idx%" + "%info_vertex_num_new%")
+          END
+
+        BUT_ONLY_IF_IT_CHANGES
+      END
+
+      
+      PATCH_IF (("%buffer%" STRING_COMPARE_CASE "10000")=0) BEGIN
+        SET i = 10000
+      END
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+END
+
+PRINT @1150
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/scripts~
+
+
+//////////////////////////////////////////////////////
+//                                                  //
+// Asking for users' input about time of a re-spawn //
+//                                                  //
+//////////////////////////////////////////////////////
+
+BEGIN @1160
+PRINT @1161
+PRINT @1162
+PRINT @1163
+PRINT @1164
+
+ACTION_READLN %spawns%
+
+OUTER_WHILE NOT(IS_AN_INT %spawns%) OR %spawns% <1 OR %spawns% >4 BEGIN
+ PRINT @1165
+ PRINT @1161
+ PRINT @1162
+ PRINT @1163
+ PRINT @1164
+ ACTION_READLN %spawns%
+END
+
+ACTION_IF (%spawns% = 1) BEGIN 
+         OUTER_SET %spawns% = 2400      // 8 Hours
+END
+
+ACTION_IF (%spawns% = 2) BEGIN 
+         OUTER_SET %spawns% = 7200      // 1 Day
+END
+
+ACTION_IF (%spawns% = 3) BEGIN 
+         OUTER_SET %spawns% = 72000     // 10 Days
+END
+
+ACTION_IF (%spawns% = 4) BEGIN 
+         OUTER_SET %spawns% = 360000    // 50 Days
+END
+
+
+// The following replaces EIGHT_HOURS value in all .baf files with time of re-spawning from users' input
+// Thanks ascension64! :-)
+
+
+COPY ~BGSpawn/scripts~ ~BGSpawn/scripts~
+  REPLACE_TEXTUALLY ~\(SetGlobalTimer("[0-9]+","[0-9A-Za-z]+",\)[\(EIGHT_HOURS\)|\(2400\)]+)~ ~\1%spawns%)~
+
+PRINT @1150
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/scripts~
+
+//////////////////////////////////////////////////////////////
+//                                                          //
+// Asking for users' input about probability of spawn point //
+// (with a nod to bgeespawn 0.3!)                           //
+//                                                          //
+//////////////////////////////////////////////////////////////
+
+BEGIN @1500
+ PRINT @1501
+ PRINT @1502
+ PRINT @1503
+ PRINT @1504
+ PRINT @1505
+ PRINT @1506
+ PRINT @1507
+ PRINT @1508
+
+ACTION_READLN %spawnpoints%
+
+OUTER_WHILE NOT(IS_AN_INT %spawnpoints%) OR %spawnpoints% <1 OR %spawnpoints% >8 BEGIN
+ PRINT @1509
+ PRINT @1501
+ PRINT @1502
+ PRINT @1503
+ PRINT @1504
+ PRINT @1505
+ PRINT @1506
+ PRINT @1507
+ PRINT @1508
+ ACTION_READLN %spawnpoints%
+END
+
+ACTION_IF (%spawnpoints% = 1) BEGIN
+         OUTER_SPRINT "spawnPerc" 15
+         OUTER_SPRINT "spawnRem" 85
+END
+ACTION_IF (%spawnpoints% = 2) BEGIN
+         OUTER_SPRINT "spawnPerc" 25
+         OUTER_SPRINT "spawnRem" 75
+END
+ACTION_IF (%spawnpoints% = 3) BEGIN
+         OUTER_SPRINT "spawnPerc" 33
+         OUTER_SPRINT "spawnRem" 67
+END
+ACTION_IF (%spawnpoints% = 4) BEGIN
+         OUTER_SPRINT "spawnPerc" 50
+         OUTER_SPRINT "spawnRem" 50
+END
+ACTION_IF (%spawnpoints% = 5) BEGIN
+         OUTER_SPRINT "spawnPerc" 66
+         OUTER_SPRINT "spawnRem" 34
+END
+ACTION_IF (%spawnpoints% = 6) BEGIN
+         OUTER_SPRINT "spawnPerc" 75
+         OUTER_SPRINT "spawnRem" 25
+END
+ACTION_IF (%spawnpoints% = 7) BEGIN
+         OUTER_SPRINT "spawnPerc" 85
+         OUTER_SPRINT "spawnRem" 15
+END
+ACTION_IF (%spawnpoints% = 8) BEGIN
+         OUTER_SPRINT "spawnPerc" 100
+         OUTER_SPRINT "spawnRem" 0
+END
+
+PRINT @1150
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/scripts~
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+// Vampiric Wolf Lord (inspired to DavidW's Wolf of Ulcaster, with his permission) //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+BEGIN @1200
+
+COPY ~BGSpawn/cre/mm75hog.CRE~ ~override~ //its ~howl-of-the-grave~ spell creature
+	WRITE_ASCII 0x248 ~mm75hog~
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/mm75hog.baf~
+	
+COPY_EXISTING ~wolfva01.cre~ ~override/wolfva01.cre~
+	WRITE_ASCII 0x248 ~mm75wo~
+	SAY 0x8 @1705
+	SAY 0xc @1705
+	WRITE_SHORT 0x24 100
+	WRITE_SHORT 0x26 100
+	WRITE_SHORT 0x46 ~-2~
+	WRITE_BYTE 0x52 11
+	WRITE_BYTE 0x53 2
+	WRITE_SHORT 0x14 4000
+
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/mm75wo.baf~
+
+COPY_EXISTING ~override/mm75wo.bcs~ ~override~
+	REPLACE ~666601~ @1706
+	REPLACE ~666602~ @1707
+	REPLACE ~666603~ @1708
+	REPLACE ~666604~ @1709
+	REPLACE ~666605~ @1710
+
+
+/////////////////////////////////////////////////
+//                                             //
+// BGSpawn for Random Encounters between Areas //
+//                                             //
+/////////////////////////////////////////////////
+
+BEGIN @1105
+
+// Copy area files
+
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	COPY ~BGSpawn/are_bgt/AR4700.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR4701.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR4800.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR4801.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR4900.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR4901.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR5400.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR5300.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR5301.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR5100.ARE~ ~override~
+	COPY ~BGSpawn/are_bgt/AR5101.ARE~ ~override~
+	COMPILE EVALUATE_BUFFER ~BGSpawn/are_bgt~
+END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+	COPY ~BGSpawn/are_eet/BG5600.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5601.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5700.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5701.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5800.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5801.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5900.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG5901.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG6000.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG6001.ARE~ ~override~
+	COPY ~BGSpawn/are_eet/BG6100.ARE~ ~override~
+	COMPILE EVALUATE_BUFFER ~BGSpawn/are_eet~
+END
+
+COPY ~BGSpawn/cre/sbaloch.CRE~ ~override~
+	SAY 0x8 @1307
+	SAY 0xc @1307
+COPY ~BGSpawn/cre/sftroll.CRE~ ~override~
+	SAY 0x8 @1308
+	SAY 0xc @1308
+COPY ~BGSpawn/cre/sftrolxd.CRE~ ~override~
+	SAY 0x8 @1308
+	SAY 0xc @1308
+COPY ~BGSpawn/cre/sftrolxd.SPL~ ~override~
+COPY ~BGSpawn/cre/sminotau.CRE~ ~override~
+COPY ~BGSpawn/cre/swatel01.CRE~ ~override~
+	SAY 0x8 @1309
+	SAY 0xc @1309
+COPY ~BGSpawn/cre/sflamcor.CRE~ ~override~
+	SAY 0x8 @1310
+	SAY 0xc @1310
+COPY ~BGSpawn/cre/sassass.CRE~ ~override~
+	SAY 0x8 @1311
+	SAY 0xc @1311
+COPY ~BGSpawn/cre/sankheg.CRE~ ~override~
+	SAY 0x8 @1312
+	SAY 0xc @1312
+COPY ~BGSpawn/cre/sankheg2.ITM~ ~override~
+
+// Compiling Scripts for Creatures
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/sftroll.baf~
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/sftrolxd.baf~
+
+// END of Scripts for CRE
+
+// Housekeeping for EET
+ACTION_IF GAME_IS ~eet~ BEGIN
+	ACTION_PHP_EACH file_names AS bgt => eet BEGIN
+	  MOVE ~BGSpawn/info/%eet%.nfp~ ~BGSpawn/info/%bgt%.nfp~
+	  MOVE ~BGSpawn/vertex/%eet%.vtx~ ~BGSpawn/vertex/%bgt%.vtx~
+	END
+END

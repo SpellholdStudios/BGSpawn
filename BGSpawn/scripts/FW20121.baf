@@ -1,34 +1,45 @@
 IF
+  Global("RandomBeenSet1521832","%WerewolfCaverns%",0)
+THEN
+  RESPONSE %spawnRem%
+    SetGlobal("RandomBeenSet1521832","%WerewolfCaverns%",1)
+    SetGlobal("SpawnReset1521832","%WerewolfCaverns%",1)
+RESPONSE %spawnPerc%
+    Continue()
+END
+//Spawnpoint % code above
+
+IF
   RandomNum(1,1)
-  Global("RandomSet1521832_0","ARW012",0)
-  Global("RandomBeenSet1521832","ARW012",0)
+  Global("RandomSet1521832_0","%WerewolfCaverns%",0)
+  Global("RandomBeenSet1521832","%WerewolfCaverns%",0)
 THEN
   RESPONSE #100
-    SetGlobal("RandomSet1521832_0","ARW012",1)
-    SetGlobal("RandomBeenSet1521832","ARW012",1)
+    SetGlobal("RandomSet1521832_0","%WerewolfCaverns%",1)
+    SetGlobal("RandomBeenSet1521832","%WerewolfCaverns%",1)
 END
 
 IF
   !Range([PC],35)
-  Global("SpawnReset1521832","ARW012",1)
-  GlobalTimerExpired("20121521832","ARW012")
+  Global("SpawnReset1521832","%WerewolfCaverns%",1)
+  GlobalTimerExpired("20121521832","%WerewolfCaverns%")
 THEN
   RESPONSE #100
-    SetGlobal("SpawnReset1521832","ARW012",0)
-    SetGlobal("RandomBeenSet1521832","ARW012",0)
-    SetGlobal("RandomSet1521832_0","ARW012",0)
+    SetGlobal("SpawnReset1521832","%WerewolfCaverns%",0)
+    SetGlobal("RandomBeenSet1521832","%WerewolfCaverns%",0)
+    SetGlobal("RandomSet1521832_0","%WerewolfCaverns%",0)
 END
 
 IF
   Range([PC],35)
-  Global("SpawnReset1521832","ARW012",0)
+  Global("SpawnReset1521832","%WerewolfCaverns%",0)
 THEN
   RESPONSE #30
-    SetGlobal("SpawnReset1521832","ARW012",1)
+    SetGlobal("SpawnReset1521832","%WerewolfCaverns%",1)
     CreateCreature("SHAWOL02",[1521.832],0)  // Greater Shade Wolf
-    SetGlobalTimer("20121521832","ARW012",EIGHT_HOURS)
+    SetGlobalTimer("20121521832","%WerewolfCaverns%",EIGHT_HOURS)
   RESPONSE #70
-    SetGlobal("SpawnReset1521832","ARW012",1)
-    SetGlobalTimer("20121521832","ARW012",EIGHT_HOURS)
+    SetGlobal("SpawnReset1521832","%WerewolfCaverns%",1)
+    SetGlobalTimer("20121521832","%WerewolfCaverns%",EIGHT_HOURS)
 END
 

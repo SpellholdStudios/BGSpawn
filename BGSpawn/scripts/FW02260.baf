@@ -1,11 +1,22 @@
 IF
+  Global("RandomBeenSet14351632","%ESewers%",0)
+THEN
+  RESPONSE %spawnRem%
+    SetGlobal("RandomBeenSet14351632","%ESewers%",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+RESPONSE %spawnPerc%
+    Continue()
+END
+//Spawnpoint % code above
+
+IF
   RandomNum(1,1)
-  Global("RandomSet14351632_0","AR7326",0)
-  Global("RandomBeenSet14351632","AR7326",0)
+  Global("RandomSet14351632_0","%ESewers%",0)
+  Global("RandomBeenSet14351632","%ESewers%",0)
 THEN
   RESPONSE #100
-    SetGlobal("RandomSet14351632_0","AR7326",1)
-    SetGlobal("RandomBeenSet14351632","AR7326",1)
+    SetGlobal("RandomSet14351632_0","%ESewers%",1)
+    SetGlobal("RandomBeenSet14351632","%ESewers%",1)
 END
 
 IF
@@ -21,20 +32,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -49,20 +60,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -77,20 +88,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -105,20 +116,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -133,20 +144,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -161,20 +172,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -190,24 +201,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -222,24 +233,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -254,24 +265,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -286,29 +297,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -323,29 +334,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -360,34 +371,34 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -403,24 +414,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -435,29 +446,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -472,35 +483,35 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -515,36 +526,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -559,47 +570,47 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #2
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -614,50 +625,50 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -676,35 +687,35 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -722,50 +733,50 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -783,45 +794,45 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -839,53 +850,53 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -903,58 +914,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -972,69 +983,69 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -1053,36 +1064,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1100,38 +1111,38 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1149,45 +1160,45 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1205,49 +1216,49 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1265,20 +1276,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1286,41 +1297,41 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1338,11 +1349,11 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1350,9 +1361,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1361,50 +1372,50 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #4
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -1417,40 +1428,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1462,43 +1473,43 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1510,20 +1521,20 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1531,31 +1542,31 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1567,11 +1578,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1579,9 +1590,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1590,44 +1601,44 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1639,11 +1650,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1652,9 +1663,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1664,47 +1675,47 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1716,11 +1727,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1730,9 +1741,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -1743,61 +1754,61 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #4
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 
@@ -1815,20 +1826,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1843,20 +1854,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1871,20 +1882,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1899,20 +1910,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1927,20 +1938,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1955,20 +1966,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -1984,24 +1995,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2016,24 +2027,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2048,24 +2059,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2080,29 +2091,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2117,29 +2128,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2154,34 +2165,34 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -2197,24 +2208,24 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2229,29 +2240,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2266,35 +2277,35 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2309,36 +2320,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2353,47 +2364,47 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #2
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2408,50 +2419,50 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
     CreateCreature("JELGRE01",[1435.1632],0)  // Green Slime
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -2470,35 +2481,35 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2516,50 +2527,50 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2577,45 +2588,45 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2633,53 +2644,53 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2697,58 +2708,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2766,69 +2777,69 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    CreateCreature("JELGRA01",[1435.1632],0)  // Gray Ooze
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -2847,36 +2858,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2894,38 +2905,38 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2943,45 +2954,45 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2999,49 +3010,49 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3059,20 +3070,20 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3080,41 +3091,41 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3132,11 +3143,11 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3144,9 +3155,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3155,50 +3166,50 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #4
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 IF
@@ -3211,40 +3222,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3256,43 +3267,43 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3304,20 +3315,20 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3325,31 +3336,31 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3361,11 +3372,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3373,9 +3384,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3384,44 +3395,44 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3433,11 +3444,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3446,9 +3457,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3458,47 +3469,47 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3510,11 +3521,11 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset14351632","AR7326",0)
-  Global("RandomSet14351632_0","AR7326",1)
+  Global("SpawnReset14351632","%ESewers%",0)
+  Global("RandomSet14351632_0","%ESewers%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3524,9 +3535,9 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
@@ -3537,83 +3548,83 @@ THEN
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
     CreateCreature("SICKRAT",[1435.1632],0)  // Diseased Rat
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset14351632","AR7326",1)
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #4
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELOCH01",[1435.1632],0)  // Ochre Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
     CreateCreature("JELMUS01",[1435.1632],0)  // Mustard Jelly
-    SetGlobalTimer("022614351632","AR7326",EIGHT_HOURS)
+    SetGlobalTimer("022614351632","%ESewers%",EIGHT_HOURS)
 END
 
 
 
 IF
   !Range([PC],35)
-  Global("SpawnReset14351632","AR7326",1)
-  GlobalTimerExpired("022614351632","AR7326")
+  Global("SpawnReset14351632","%ESewers%",1)
+  GlobalTimerExpired("022614351632","%ESewers%")
 THEN
   RESPONSE #100
-    SetGlobal("SpawnReset14351632","AR7326",0)
-    SetGlobal("RandomBeenSet14351632","AR7326",0)
-    SetGlobal("RandomSet14351632_0","AR7326",0)
+    SetGlobal("SpawnReset14351632","%ESewers%",0)
+    SetGlobal("RandomBeenSet14351632","%ESewers%",0)
+    SetGlobal("RandomSet14351632_0","%ESewers%",0)
 END
 
 IF
   Range([PC],35)
-  Global("SpawnReset14351632","AR7326",0)
+  Global("SpawnReset14351632","%ESewers%",0)
 THEN
   RESPONSE #100
-    SetGlobal("SpawnReset14351632","AR7326",1)
+    SetGlobal("SpawnReset14351632","%ESewers%",1)
     CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
-    SetGlobalTimer("022614351632","AR7326",2400)
+    SetGlobalTimer("022614351632","%ESewers%",2400)
 END
 

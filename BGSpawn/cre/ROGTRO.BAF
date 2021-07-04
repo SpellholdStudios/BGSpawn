@@ -12,7 +12,7 @@ THEN
 	RESPONSE #100
 		SetInterrupt(FALSE)
 		StartTimer(77,6)
-		ChangeAnimationNoEffect("ROGTRO02") // Sea Troll
+		ChangeAnimationNoEffect("ROGTROXD") // Sea Troll
 END
 
 IF

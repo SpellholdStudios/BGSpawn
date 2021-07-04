@@ -1,11 +1,22 @@
 IF
+  Global("RandomBeenSet46081408","%Undercity%",0)
+THEN
+  RESPONSE %spawnRem%
+    SetGlobal("RandomBeenSet46081408","%Undercity%",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+RESPONSE %spawnPerc%
+    Continue()
+END
+//Spawnpoint % code above
+
+IF
   RandomNum(1,1)
-  Global("RandomSet46081408_1","AR7223",0)
-  Global("RandomBeenSet46081408","AR7223",0)
+  Global("RandomSet46081408_1","%Undercity%",0)
+  Global("RandomBeenSet46081408","%Undercity%",0)
 THEN
   RESPONSE #100
-    SetGlobal("RandomSet46081408_1","AR7223",1)
-    SetGlobal("RandomBeenSet46081408","AR7223",1)
+    SetGlobal("RandomSet46081408_1","%Undercity%",1)
+    SetGlobal("RandomBeenSet46081408","%Undercity%",1)
 END
 
 IF
@@ -21,17 +32,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -46,17 +57,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -71,17 +82,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -96,17 +107,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -121,17 +132,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -146,17 +157,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -172,17 +183,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -197,17 +208,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -222,17 +233,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -247,22 +258,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -277,22 +288,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -307,22 +318,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -338,22 +349,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -368,22 +379,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -398,22 +409,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -428,29 +439,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -465,29 +476,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -502,36 +513,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #35
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #35
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -550,21 +561,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -582,21 +593,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -614,21 +625,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -646,31 +657,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -688,31 +699,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -730,31 +741,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -773,39 +784,39 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -823,39 +834,39 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -873,40 +884,40 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -924,58 +935,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -993,58 +1004,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1062,89 +1073,89 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -1157,40 +1168,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1202,40 +1213,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1247,52 +1258,52 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1304,77 +1315,77 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1386,129 +1397,129 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #2
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #7
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1520,110 +1531,110 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #14
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #6
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 
@@ -1642,17 +1653,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1667,17 +1678,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1692,17 +1703,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1717,17 +1728,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1742,17 +1753,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1767,17 +1778,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),1,LEVEL)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #90
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -1793,17 +1804,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1818,17 +1829,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1843,17 +1854,17 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #80
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1868,22 +1879,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1898,22 +1909,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1928,22 +1939,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),2,LEVEL)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -1959,22 +1970,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -1989,22 +2000,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2019,22 +2030,22 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2049,29 +2060,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2086,29 +2097,29 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2123,36 +2134,36 @@ IF
   !CheckStatGT(StrongestOf(Myself),3,LEVEL)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
     CreateCreature("ZOMBIE",[4608.1408],0)  // Zombie
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #35
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #35
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
     CreateCreature("GHOUL",[4608.1408],0)  // Ghoul
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -2171,21 +2182,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2203,21 +2214,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2235,21 +2246,21 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #60
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2267,31 +2278,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #50
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2309,31 +2320,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #40
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2351,31 +2362,31 @@ IF
   !CheckStatGT(StrongestOf(Myself),5,LEVEL)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
     CreateCreature("GHAST",[4608.1408],0)  // Ghast
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -2394,39 +2405,39 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2444,39 +2455,39 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2494,40 +2505,40 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #30
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2545,58 +2556,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2614,58 +2625,58 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2683,89 +2694,89 @@ IF
   !CheckStatGT(StrongestOf(Myself),7,LEVEL)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 IF
@@ -2778,40 +2789,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2823,40 +2834,40 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #20
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2868,52 +2879,52 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #25
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -2925,77 +2936,77 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #15
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3007,129 +3018,129 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
-  RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
-    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    CreateCreature("NEVM1",[4608.1408],0)  // Wight
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
+    CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #2
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #7
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #3
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 IF
   Range([PC],35)
@@ -3141,132 +3152,132 @@ IF
   CheckStatGT(StrongestOf(Myself),7,LEVEL)
   CheckStatGT(StrongestOf(Myself),7,LEVEL2)
   CheckStatGT(StrongestOf(Myself),7,LEVEL3)
-  Global("SpawnReset46081408","AR7223",0)
-  Global("RandomSet46081408_1","AR7223",1)
+  Global("SpawnReset46081408","%Undercity%",0)
+  Global("RandomSet46081408_1","%Undercity%",1)
 THEN
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("SHADOW01",[4608.1408],0)  // Shadow
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #10
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("WRAITH01",[4608.1408],0)  // Wraith
     CreateCreature("NEVM1",[4608.1408],0)  // Wight
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #5
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #14
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
   RESPONSE #6
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("VAMPIM01",[4608.1408],0)  // Vampire Male
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
     CreateCreature("VAMPIF01",[4608.1408],0)  // Vampire Female
-    SetGlobalTimer("012346081408","AR7223",EIGHT_HOURS)
+    SetGlobalTimer("012346081408","%Undercity%",EIGHT_HOURS)
 END
 
 
 
 IF
   !Range([PC],35)
-  Global("SpawnReset46081408","AR7223",1)
-  GlobalTimerExpired("012346081408","AR7223")
+  Global("SpawnReset46081408","%Undercity%",1)
+  GlobalTimerExpired("012346081408","%Undercity%")
 THEN
   RESPONSE #100
-    SetGlobal("SpawnReset46081408","AR7223",0)
-    SetGlobal("RandomBeenSet46081408","AR7223",0)
-    SetGlobal("RandomSet46081408_1","AR7223",0)
+    SetGlobal("SpawnReset46081408","%Undercity%",0)
+    SetGlobal("RandomBeenSet46081408","%Undercity%",0)
+    SetGlobal("RandomSet46081408_1","%Undercity%",0)
 END
 
 IF
   Range([PC],35)
-  Global("SpawnReset46081408","AR7223",0)
+  Global("SpawnReset46081408","%Undercity%",0)
 THEN
   RESPONSE #100
-    SetGlobal("SpawnReset46081408","AR7223",1)
+    SetGlobal("SpawnReset46081408","%Undercity%",1)
     CreateCreature("GHOUL",[4608.1408],0)  // ~Ghoul~
-    SetGlobalTimer("012346081408","AR7223",2400)
+    SetGlobalTimer("012346081408","%Undercity%",2400)
 END
 
