@@ -1,33 +1,29 @@
-@1 = ~Impossible de detecter la presence de Baldur's Gate Trilogy-WeiDU.~
+@1    = ~Impossible de detecter la presence de BGT or EET~
+@2    = ~This component requires main component.~
+    
+@1101 = ~Systeme BGSpawn base sur le niveau et le nombre de membres du groupe~
 
-@1101 = ~Systeme BGSpawn base sur le niveau et le nombre de membres du groupe
-(REMARQUE : necessite Baldur's Gate Trilogy - WeiDU)~
-
-@1105 = ~Rencontres aleatoires de BGSpawn entre les zones
-(REMARQUE : necessite Baldur's Gate Trilogy - WeiDU)~
+@1105 = ~Rencontres aleatoires de BGSpawn entre les zones~
 
 @1150 = ~Ceci prend un peu de temps... veuillez patienter (",)~
 
 @1160 = ~Choisissez l'intervalle entre les apparitions de creatures~
-@1161 = ~1. Intervalle de reapparition = 8 heures (regles standard AD&D)~
-@1162 = ~2. Intervalle de reapparition = 24 heures~
-@1163 = ~3. Intervalle de reapparition = 10 jours~
-@1164 = ~4. Intervalle de reapparition = 50 jours (en fin de compte, aucune chance de reapparition)~
-@1165 = ~Votre reponse n'etait pas un entier. Veuillez choisir parmi 1, 2, 3, et 4~
+@1161 = ~Intervalle de reapparition = 8 heures (regles standard AD&D)~
+@1162 = ~Intervalle de reapparition = 24 heures~
+@1163 = ~Intervalle de reapparition = 10 jours~
+@1164 = ~Intervalle de reapparition = 50 jours (en fin de compte, aucune chance de reapparition)~
 
-@1200 = ~Seigneur Loup Vampirique (inspire par le Loup d'Ulcaster de DavidW)
-REMARQUE : ceci modifie certains Loups vampiriques dans le jeu. Le systeme BGSpawn s'en sert~
+@1200 = ~Seigneur Loup Vampirique (inspire par le Loup d'Ulcaster de DavidW)~
 
 @1500 = ~Decrease Spawn Point Probability (default is 100%)~
-@1501 = ~1. 15%~
-@1502 = ~2. 25%~
-@1503 = ~3. 33%~
-@1504 = ~4. 50%~
-@1505 = ~5. 66%~
-@1506 = ~6. 75%~
-@1507 = ~7. 85%~
-@1508 = ~8. 100%~
-@1509 = ~Choose 1-8~
+@1501 = ~15%~
+@1502 = ~25%~
+@1503 = ~33%~
+@1504 = ~50%~
+@1505 = ~66%~
+@1506 = ~75%~
+@1507 = ~85%~
+@1508 = ~100%~
 
 
 // WeiDU prompts

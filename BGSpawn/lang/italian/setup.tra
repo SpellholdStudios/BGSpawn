@@ -1,0 +1,26 @@
+@1    = ~BGT or EET could not be detected.~
+@2    = ~This component requires main component.~
+
+@1101 = ~Il sistema BGSpawn è basato sui livelli e sui membri del gruppo~
+
+@1105 = ~BGSpawn incontri random tra le aree~
+
+@1150 = ~Questo potrà richiedere un po' di tempo... attendere prego (",)~
+
+@1160 = ~Scegli il tempo tra i re-spawn~
+@1161 = ~Tempo di Re-spawn = 8 ore (regole standard di ad&d)~
+@1162 = ~Tempo di Re-spawn = 24 ore~
+@1163 = ~Tempo di Re-spawn = 10 giorni~
+@1164 = ~Tempo di Re-spawn = 50 giorni (nessuna possibilità di re-spawn delle creature)~
+
+@1200 = ~Signore dei Lupi-vampiro (ispirato al Lupo di Ulcaster di DavidW)~
+
+@1500 = ~Decrease Spawn Point Probability (default is 100%)~
+@1501 = ~15%~
+@1502 = ~25%~
+@1503 = ~33%~
+@1504 = ~50%~
+@1505 = ~66%~
+@1506 = ~75%~
+@1507 = ~85%~
+@1508 = ~100%~

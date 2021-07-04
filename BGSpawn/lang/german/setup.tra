@@ -1,0 +1,26 @@
+@1    = ~BGT or EET could not be detected.~
+@2    = ~This component requires main component.~
+
+@1101 = ~Das BGSpawn System basiert auf Stufen und Anzahl der Gruppenmitglieder~
+
+@1105 = ~BGSpawn Zufallsbegegnungen zwischen den Gebieten~
+
+@1150 = ~Dies dauert etwas... bitte warten (",)~ 
+
+@1160 = ~Waehlt die Zeit zwischen den Re-Spawns~
+@1161 = ~Re-Spawns = 8 Stunden (Standard AD&D Regeln)~ 
+@1162 = ~Re-Spawns = 24 Stunden~
+@1163 = ~Re-Spawns = 10 Tage~
+@1164 = ~Re-Spawns = 50 Tage (eventuell keine Chance das Kreaturen Re-Spawned werden)~ 
+
+@1200 = ~Vampirwolfslord (inspiriert von DavidW Wolf von Ulcaster)~
+
+@1500 = ~Decrease Spawn Point Probability (default is 100%)~
+@1501 = ~15%~
+@1502 = ~25%~
+@1503 = ~33%~
+@1504 = ~50%~
+@1505 = ~66%~
+@1506 = ~75%~
+@1507 = ~85%~
+@1508 = ~100%~

@@ -1,3 +1,8 @@
+# 1.3.0: AL|EN
+- replaced ACTION_READLN with SUBCOMPONENT to not halt installation
+- added DESIGNATED numbers
+- added globally unique LABEL's
+
 # 1.2.1: AL|EN
 - cosmetic changes to file and folder names
 - updated links

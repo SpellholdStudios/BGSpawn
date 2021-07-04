@@ -1,0 +1,26 @@
+@1    = ~BGT or EET could not be detected.~
+@2    = ~This component requires main component.~
+
+@1101 = ~BGSpawn system based on levels & party members~
+
+@1105 = ~BGSpawn random encounters between areas~
+
+@1150 = ~This takes some time...please wait (",)~
+
+@1160 = ~Choose the time between re-spawns~
+@1161 = ~Re-spawn time = 8 hours (standard ad&d rules)~
+@1162 = ~Re-spawn time = 24 hours~
+@1163 = ~Re-spawn time = 10 days~
+@1164 = ~Re-spawn time = 50 days (eventually, no chance of re-spawned creatures)~
+
+@1200 = ~Vampiric Wolf Lord (inspired to DavidW Wolf of Ulcaster)~
+
+@1500 = ~Decrease Spawn Point Probability (default is 100%)~
+@1501 = ~15%~
+@1502 = ~25%~
+@1503 = ~33%~
+@1504 = ~50%~
+@1505 = ~66%~
+@1506 = ~75%~
+@1507 = ~85%~
+@1508 = ~100%~

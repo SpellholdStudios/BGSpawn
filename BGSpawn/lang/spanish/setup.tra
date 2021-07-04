@@ -1,0 +1,26 @@
+@1    = ~BGT or EET could not be detected.~
+@2    = ~This component requires main component.~
+
+@1101 = ~El sistema de BGSpawn está basado en los niveles y miembros del grupo~
+
+@1105 = ~Encuentros al azar de  BGSpawn entre áreas~ 
+
+@1150 = ~Esto puedo tomar algún tiempo... por favor espera (",)~ 
+
+@1160 = ~Elije el tiempo entre reapaciriones~
+@1161 = ~Tiempo de reaparición = 8 horas (Reglas standard de AD&D)~ 
+@1162 = ~Tiempo de reaparición = 24 horas ~
+@1163 = ~Tiempo de reaparición = 10 días~
+@1164 = ~Tiempo de reaparición = 50 días (Eventualmente, sin oportunidad de creaturas reaparecidas)~ 
+
+@1200 = ~Gran Lobo Vampírico (Inspirado en Lobo de Ulcaster de DavidW)~ 
+
+@1500 = ~Decrease Spawn Point Probability (default is 100%)~
+@1501 = ~15%~
+@1502 = ~25%~
+@1503 = ~33%~
+@1504 = ~50%~
+@1505 = ~66%~
+@1506 = ~75%~
+@1507 = ~85%~
+@1508 = ~100%~

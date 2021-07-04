@@ -2,7 +2,7 @@ BACKUP ~weidu_external/backup/BGSpawn~
 
 SUPPORT ~http://www.shsforums.net/topic/39639-release-bgspawn-version-111/~ //AUTHOR ~Melkor Morgoth75~
 
-VERSION ~1.2.1~
+VERSION ~1.3.0~
 
 README ~%MOD_FOLDER%/docs/BGSpawnReadme.doc~
 
@@ -117,50 +117,53 @@ DEFINE_PATCH_MACRO are_update_offset BEGIN
     READ_LONG 0xc4 automap_off
 END
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
 ALWAYS
 
-  OUTER_SPRINT MOD_FOLDER BGSpawn
+    OUTER_SPRINT MOD_FOLDER BGSpawn
+    
+    DEFINE_ACTION_FUNCTION Set-RespawnTime INT_VAR spawns = 2400 BEGIN
+        // The following replaces EIGHT_HOURS value in all .baf files with time of re-spawning from users' input. Thanks ascension64! :-)
+        COPY ~%MOD_FOLDER%/scripts~ ~%MOD_FOLDER%/scripts~
+        REPLACE_TEXTUALLY ~\(SetGlobalTimer("[0-9]+","[0-9A-Za-z]+",\)[\(EIGHT_HOURS\)|\(2400\)]+)~ ~\1%spawns%)~
+        PRINT @1150
+        COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+    END
 
-  ACTION_IF NOT VARIABLE_IS_SET ee_spawn THEN BEGIN
-    ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
-    ACTION_DEFINE_ARRAY fl#reload BEGIN game END  // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
-    // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
-    LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charsets = 1
-    STR_VAR
-      tra_path = ~%MOD_FOLDER%/tra~
-        noconvert_array = fl#noconvert
-      reload_array = fl#reload
-      default_language = english
-    END
-    // Load EE-specific text (usability section removed from item descriptions)
     ACTION_IF GAME_IS ~eet~ THEN BEGIN
-      OUTER_SET ee_spawn = 1
-      // Load English first in case some entries not available in the chosen language (as in LANGUAGE for setup.tra)
-      // LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/game_ee.tra~
-    END ELSE BEGIN
-      OUTER_SET ee_spawn = 0
+        ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+        ACTION_DEFINE_ARRAY fl#reload BEGIN game END  // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
+        // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
+        LAF HANDLE_CHARSETS
+            INT_VAR
+                infer_charsets = 1
+            STR_VAR
+                tra_path = ~%MOD_FOLDER%/lang~
+                noconvert_array = fl#noconvert
+                reload_array = fl#reload
+                default_language = "english"
+        END
     END
-  END
+
+    OUTER_SPRINT "spawnPerc" 100
+    OUTER_SPRINT "spawnRem" 0
+
 END
 
-LANGUAGE "English" "english" ~BGSpawn/tra/english/setup.tra~ ~BGSpawn/tra/english/game.tra~
-LANGUAGE "German [by 10th]" "german" ~BGSpawn/tra/german/setup.tra~ ~BGSpawn/tra/german/game.tra~
-LANGUAGE "Italian [by Ilot]" "italian" ~BGSpawn/tra/italian/setup.tra~ ~BGSpawn/tra/italian/game.tra~
-LANGUAGE "French [by Isaya]" "french" ~BGSpawn/tra/french/setup.tra~ ~BGSpawn/tra/french/game.tra~
-LANGUAGE "Russian [by Prowler]" "russian" ~BGSpawn/tra/russian/setup.tra~ ~BGSpawn/tra/russian/game.tra~
-LANGUAGE "Castellano [Por Lisandro]" "Spanish" ~BGSpawn/tra/Spanish/setup.tra~ ~BGSpawn/tra/Spanish/game.tra~
-LANGUAGE "�������� [by Delmarey and Magician]" "chs" ~BGSpawn/tra/chs/setup.tra~ ~BGSpawn/tra/chs/game.tra~
-LANGUAGE "�c�餤�� [by Delmarey and Magician]" "cht" ~BGSpawn/tra/cht/setup.tra~ ~BGSpawn/tra/cht/game.tra~
+LANGUAGE "English" "english" ~BGSpawn/lang/english/setup.tra~ ~BGSpawn/lang/english/game.tra~
+LANGUAGE "German [by 10th]" "german" ~BGSpawn/lang/german/setup.tra~ ~BGSpawn/lang/german/game.tra~
+LANGUAGE "Italian [by Ilot]" "italian" ~BGSpawn/lang/italian/setup.tra~ ~BGSpawn/lang/italian/game.tra~
+LANGUAGE "French [by Isaya]" "french" ~BGSpawn/lang/french/setup.tra~ ~BGSpawn/lang/french/game.tra~
+LANGUAGE "Russian [by Prowler]" "russian" ~BGSpawn/lang/russian/setup.tra~ ~BGSpawn/lang/russian/game.tra~
+LANGUAGE "Castellano [Por Lisandro]" "Spanish" ~BGSpawn/lang/Spanish/setup.tra~ ~BGSpawn/lang/Spanish/game.tra~
+LANGUAGE "简体中文 [by Delmarey and Magician]" "chinese" ~BGSpawn/lang/chinese/setup.tra~ ~BGSpawn/lang/chinese/game.tra~
+LANGUAGE "繁體中文 [by Delmarey and Magician]" "chineset" ~BGSpawn/lang/chineset/setup.tra~ ~BGSpawn/lang/chineset/game.tra~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                             //
-// Melkor Morgoth75 - BGSpawn Levelled System (thanks to ascension64 for most of the tp2 code) //
+// Melkor Morgoth75 - BGSpawn Leveled System (thanks to ascension64 for most of the tp2 code) //
 //                                                                                             //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN @1101
+BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
     REQUIRE_PREDICATE (GAME_IS ~bgt eet~) @1
 
     // Handle non-fixpacked BG2
@@ -400,202 +403,168 @@ BEGIN @1101
 
     // Copied directly from BGT-Tweaks code (ascension64)
     ACTION_IF NOT FILE_EXISTS_IN_GAME ~FW01230.BCS~ THEN BEGIN // Check if BGT-Tutu levelled spawn is installed 
-    COPY ~%MOD_FOLDER%/info~ ~%MOD_FOLDER%/info~
-    SPRINT source "%SOURCE_RES%"
-    SET info_vertex_num_new_total = 0
-    PATCH_IF NOT ("%SOURCE_SIZE%" = 0) BEGIN
-        FOR (i=0;i<10000;i+=1) BEGIN
-        READ_ASCII ("%i%"*0xc4) info_data_new (196)
-        READ_ASCII (("%i%" + 1)*0xc4) buffer ELSE 10000 (196) 
-        READ_SHORT ("%i%"*0xc4 + 0x2a) info_vertex_num_new
-        SET info_vertex_num_new_total += "%info_vertex_num_new%"
-        INNER_ACTION BEGIN
-            COPY_EXISTING ~%source%.ARE~ ~override/%source%.ARE~
-            READ_LONG 0x54 actor_off
-            READ_LONG 0x5c info_off
-            READ_LONG 0x60 spawn_off
-            READ_LONG 0x68 entrance_off
-            READ_LONG 0x70 container_off
-            READ_LONG 0x78 item_off
-            READ_LONG 0x7c vertex_off
-            READ_LONG 0x84 ambient_off
-            READ_LONG 0x88 variable_off
-            READ_LONG 0xa8 door_off
-            READ_LONG 0xa0 explored_off
-            READ_LONG 0xb0 anim_off
-            READ_LONG 0xb8 tiled_off
-            READ_LONG 0xbc song_off
-            READ_LONG 0xc0 rest_off
-            READ_LONG 0xc4 automap_off
-            READ_SHORT 0x5a info_num
-            READ_SHORT 0x64 spawn_num
-            READ_SHORT 0x74 container_num
-            READ_SHORT 0x80 vertex_num
-            READ_SHORT 0xa4 door_num
-            FOR (n=0;n<"%spawn_num%";n+=1) BEGIN
-                WRITE_SHORT ("%spawn_off%" + "%n%"*0xc8 + 0x86) 0
-            END
-            SPRINT are_update_offset_datatype "info"
-            SET are_update_offset_increment = 196
-            LAUNCH_PATCH_MACRO are_update_offset
-            INSERT_BYTES "%info_off%" 196
-            WRITE_EVALUATED_ASCII "%info_off%" "%info_data_new%" #196
-            WRITE_LONG ("%info_off%" + 0x2c) 0 //set first vertex index to zero
-            SET info_num +=1
-            WRITE_SHORT 0x5a "%info_num%"
-            SPRINT are_update_offset_datatype "vertex"
-            SET are_update_offset_increment = 0x4 * "%info_vertex_num_new%"
-            LAUNCH_PATCH_MACRO are_update_offset
-            FOR (j=0;j<"%info_vertex_num_new%";j+=1) BEGIN
-                INNER_ACTION BEGIN
-                COPY ~%MOD_FOLDER%/vertex/%source%.vtx~ ~%MOD_FOLDER%/vertex/%source%.vtx~
-                    READ_LONG (("%j%" + "%info_vertex_num_new_total%" - "%info_vertex_num_new%")*0x4) vertex_data_new
-                BUT_ONLY_IF_IT_CHANGES
-                END          
+        COPY ~%MOD_FOLDER%/info~ ~%MOD_FOLDER%/info~
+        SPRINT source "%SOURCE_RES%"
+        SET info_vertex_num_new_total = 0
+        PATCH_IF NOT ("%SOURCE_SIZE%" = 0) BEGIN
+            FOR (i=0;i<10000;i+=1) BEGIN
+            READ_ASCII ("%i%"*0xc4) info_data_new (196)
+            READ_ASCII (("%i%" + 1)*0xc4) buffer ELSE 10000 (196) 
+            READ_SHORT ("%i%"*0xc4 + 0x2a) info_vertex_num_new
+            SET info_vertex_num_new_total += "%info_vertex_num_new%"
+            INNER_ACTION BEGIN
+                COPY_EXISTING ~%source%.ARE~ ~override/%source%.ARE~
+                READ_LONG 0x54 actor_off
+                READ_LONG 0x5c info_off
+                READ_LONG 0x60 spawn_off
+                READ_LONG 0x68 entrance_off
+                READ_LONG 0x70 container_off
+                READ_LONG 0x78 item_off
+                READ_LONG 0x7c vertex_off
+                READ_LONG 0x84 ambient_off
+                READ_LONG 0x88 variable_off
+                READ_LONG 0xa8 door_off
+                READ_LONG 0xa0 explored_off
+                READ_LONG 0xb0 anim_off
+                READ_LONG 0xb8 tiled_off
+                READ_LONG 0xbc song_off
+                READ_LONG 0xc0 rest_off
+                READ_LONG 0xc4 automap_off
+                READ_SHORT 0x5a info_num
+                READ_SHORT 0x64 spawn_num
+                READ_SHORT 0x74 container_num
                 READ_SHORT 0x80 vertex_num
-                INSERT_BYTES ("%vertex_off%") 4
-                WRITE_LONG ("%vertex_off%") "%vertex_data_new%"
-                SET vertex_num +=1
-                WRITE_SHORT 0x80 "%vertex_num%"
+                READ_SHORT 0xa4 door_num
+                FOR (n=0;n<"%spawn_num%";n+=1) BEGIN
+                    WRITE_SHORT ("%spawn_off%" + "%n%"*0xc8 + 0x86) 0
+                END
+                SPRINT are_update_offset_datatype "info"
+                SET are_update_offset_increment = 196
+                LAUNCH_PATCH_MACRO are_update_offset
+                INSERT_BYTES "%info_off%" 196
+                WRITE_EVALUATED_ASCII "%info_off%" "%info_data_new%" #196
+                WRITE_LONG ("%info_off%" + 0x2c) 0 //set first vertex index to zero
+                SET info_num +=1
+                WRITE_SHORT 0x5a "%info_num%"
+                SPRINT are_update_offset_datatype "vertex"
+                SET are_update_offset_increment = 0x4 * "%info_vertex_num_new%"
+                LAUNCH_PATCH_MACRO are_update_offset
+                FOR (j=0;j<"%info_vertex_num_new%";j+=1) BEGIN
+                    INNER_ACTION BEGIN
+                    COPY ~%MOD_FOLDER%/vertex/%source%.vtx~ ~%MOD_FOLDER%/vertex/%source%.vtx~
+                        READ_LONG (("%j%" + "%info_vertex_num_new_total%" - "%info_vertex_num_new%")*0x4) vertex_data_new
+                    BUT_ONLY_IF_IT_CHANGES
+                    END          
+                    READ_SHORT 0x80 vertex_num
+                    INSERT_BYTES ("%vertex_off%") 4
+                    WRITE_LONG ("%vertex_off%") "%vertex_data_new%"
+                    SET vertex_num +=1
+                    WRITE_SHORT 0x80 "%vertex_num%"
+                END
+                FOR (k=1;k<"%info_num%";k+=1) BEGIN
+                    READ_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) info_vertex_first_idx
+                    WRITE_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) ("%info_vertex_first_idx%" + "%info_vertex_num_new%")
+                END
+                FOR (l=0;l<"%door_num%";l+=1) BEGIN
+                    READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) door_vertex_open_first_idx
+                    READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) door_vertex_closed_first_idx
+                    READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) door_vertex_impede_closed_first_idx
+                    READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) door_vertex_impede_open_first_idx
+                    WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) ("%door_vertex_open_first_idx%" + "%info_vertex_num_new%")
+                    WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) ("%door_vertex_closed_first_idx%" + "%info_vertex_num_new%")
+                    WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) ("%door_vertex_impede_closed_first_idx%" + "%info_vertex_num_new%")
+                    WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) ("%door_vertex_impede_open_first_idx%" + "%info_vertex_num_new%")
+                END
+                FOR (m=0;m<"%container_num%";m+=1) BEGIN
+                    READ_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) container_vertex_first_idx
+                    WRITE_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) ("%container_vertex_first_idx%" + "%info_vertex_num_new%")
+                END
+                BUT_ONLY_IF_IT_CHANGES
             END
-            FOR (k=1;k<"%info_num%";k+=1) BEGIN
-                READ_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) info_vertex_first_idx
-                WRITE_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) ("%info_vertex_first_idx%" + "%info_vertex_num_new%")
+            PATCH_IF (("%buffer%" STRING_COMPARE_CASE "10000")=0) BEGIN
+                SET i = 10000
             END
-            FOR (l=0;l<"%door_num%";l+=1) BEGIN
-                READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) door_vertex_open_first_idx
-                READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) door_vertex_closed_first_idx
-                READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) door_vertex_impede_closed_first_idx
-                READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) door_vertex_impede_open_first_idx
-                WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) ("%door_vertex_open_first_idx%" + "%info_vertex_num_new%")
-                WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) ("%door_vertex_closed_first_idx%" + "%info_vertex_num_new%")
-                WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) ("%door_vertex_impede_closed_first_idx%" + "%info_vertex_num_new%")
-                WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) ("%door_vertex_impede_open_first_idx%" + "%info_vertex_num_new%")
             END
-            FOR (m=0;m<"%container_num%";m+=1) BEGIN
-                READ_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) container_vertex_first_idx
-                WRITE_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) ("%container_vertex_first_idx%" + "%info_vertex_num_new%")
-            END
-            BUT_ONLY_IF_IT_CHANGES
         END
-        PATCH_IF (("%buffer%" STRING_COMPARE_CASE "10000")=0) BEGIN
-            SET i = 10000
-        END
-        END
-    END
-    BUT_ONLY_IF_IT_CHANGES
+        BUT_ONLY_IF_IT_CHANGES
     END
     PRINT @1150
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
 
-//////////////////////////////////////////////////////
-//                                                  //
-// Asking for users' input about time of a re-spawn //
-//                                                  //
-//////////////////////////////////////////////////////
-BEGIN @1160
-PRINT @1161
-PRINT @1162
-PRINT @1163
-PRINT @1164
-ACTION_READLN %spawns%
-OUTER_WHILE NOT(IS_AN_INT %spawns%) OR %spawns% <1 OR %spawns% >4 BEGIN
- PRINT @1165
- PRINT @1161
- PRINT @1162
- PRINT @1163
- PRINT @1164
- ACTION_READLN %spawns%
-END
-ACTION_IF (%spawns% = 1) BEGIN 
-         OUTER_SET %spawns% = 2400      // 8 Hours
-END
-ACTION_IF (%spawns% = 2) BEGIN 
-         OUTER_SET %spawns% = 7200      // 1 Day
-END
-ACTION_IF (%spawns% = 3) BEGIN 
-         OUTER_SET %spawns% = 72000     // 10 Days
-END
-ACTION_IF (%spawns% = 4) BEGIN 
-         OUTER_SET %spawns% = 360000    // 50 Days
-END
 
-// The following replaces EIGHT_HOURS value in all .baf files with time of re-spawning from users' input
-// Thanks ascension64! :-)
-COPY ~%MOD_FOLDER%/scripts~ ~%MOD_FOLDER%/scripts~
-  REPLACE_TEXTUALLY ~\(SetGlobalTimer("[0-9]+","[0-9A-Za-z]+",\)[\(EIGHT_HOURS\)|\(2400\)]+)~ ~\1%spawns%)~
-PRINT @1150
-COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1161 SUBCOMPONENT @1160 DESIGNATED 2100 LABEL "BGSpawn-RespawnTime8Hours"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SET spawns = 2400 // 8 Hours
+    LAUNCH_ACTION_FUNCTION Set-RespawnTime INT_VAR spawns END
 
-//////////////////////////////////////////////////////////////
-//                                                          //
-// Asking for users' input about probability of spawn point //
-// (with a nod to bgeespawn 0.3!)                           //
-//                                                          //
-//////////////////////////////////////////////////////////////
-BEGIN @1500
- PRINT @1501
- PRINT @1502
- PRINT @1503
- PRINT @1504
- PRINT @1505
- PRINT @1506
- PRINT @1507
- PRINT @1508
-ACTION_READLN %spawnpoints%
-OUTER_WHILE NOT(IS_AN_INT %spawnpoints%) OR %spawnpoints% <1 OR %spawnpoints% >8 BEGIN
- PRINT @1509
- PRINT @1501
- PRINT @1502
- PRINT @1503
- PRINT @1504
- PRINT @1505
- PRINT @1506
- PRINT @1507
- PRINT @1508
- ACTION_READLN %spawnpoints%
-END
-ACTION_IF (%spawnpoints% = 1) BEGIN
-         OUTER_SPRINT "spawnPerc" 15
-         OUTER_SPRINT "spawnRem" 85
-END
-ACTION_IF (%spawnpoints% = 2) BEGIN
-         OUTER_SPRINT "spawnPerc" 25
-         OUTER_SPRINT "spawnRem" 75
-END
-ACTION_IF (%spawnpoints% = 3) BEGIN
-         OUTER_SPRINT "spawnPerc" 33
-         OUTER_SPRINT "spawnRem" 67
-END
-ACTION_IF (%spawnpoints% = 4) BEGIN
-         OUTER_SPRINT "spawnPerc" 50
-         OUTER_SPRINT "spawnRem" 50
-END
-ACTION_IF (%spawnpoints% = 5) BEGIN
-         OUTER_SPRINT "spawnPerc" 66
-         OUTER_SPRINT "spawnRem" 34
-END
-ACTION_IF (%spawnpoints% = 6) BEGIN
-         OUTER_SPRINT "spawnPerc" 75
-         OUTER_SPRINT "spawnRem" 25
-END
-ACTION_IF (%spawnpoints% = 7) BEGIN
-         OUTER_SPRINT "spawnPerc" 85
-         OUTER_SPRINT "spawnRem" 15
-END
-ACTION_IF (%spawnpoints% = 8) BEGIN
-         OUTER_SPRINT "spawnPerc" 100
-         OUTER_SPRINT "spawnRem" 0
-END
-PRINT @1150
-COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1162 SUBCOMPONENT @1160 DESIGNATED 2200 LABEL "BGSpawn-RespawnTime1Day"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SET spawns = 7200 // 1 Day
+    LAUNCH_ACTION_FUNCTION Set-RespawnTime INT_VAR spawns END
+
+BEGIN @1163 SUBCOMPONENT @1160 DESIGNATED 2300 LABEL "BGSpawn-RespawnTime10Days"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SET spawns = 72000 // 10 Days
+    LAUNCH_ACTION_FUNCTION Set-RespawnTime INT_VAR spawns END
+
+BEGIN @1164 SUBCOMPONENT @1160 DESIGNATED 2400 LABEL "BGSpawn-RespawnTime50DaysNone"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SET spawns = 360000 // 50 Days
+    LAUNCH_ACTION_FUNCTION Set-RespawnTime INT_VAR spawns END
+
+////////////////////////////////////
+//                                //
+// Probability of spawn point     //
+// (with a nod to bgeespawn 0.3!) //
+//                                //
+////////////////////////////////////
+BEGIN @1501 SUBCOMPONENT @1500 DESIGNATED 3100 LABEL "BGSpawn-SpawnProbability-15"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 15
+    OUTER_SPRINT "spawnRem" 85
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1502 SUBCOMPONENT @1500 DESIGNATED 3200 LABEL "BGSpawn-SpawnProbability-25"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 25
+    OUTER_SPRINT "spawnRem" 75
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1503 SUBCOMPONENT @1500 DESIGNATED 3300 LABEL "BGSpawn-SpawnProbability-33"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 33
+    OUTER_SPRINT "spawnRem" 67
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1504 SUBCOMPONENT @1500 DESIGNATED 3400 LABEL "BGSpawn-SpawnProbability-50"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 50
+    OUTER_SPRINT "spawnRem" 50
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1505 SUBCOMPONENT @1500 DESIGNATED 3500 LABEL "BGSpawn-SpawnProbability-66"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 66
+    OUTER_SPRINT "spawnRem" 34
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1506 SUBCOMPONENT @1500 DESIGNATED 3600 LABEL "BGSpawn-SpawnProbability-75"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 75
+    OUTER_SPRINT "spawnRem" 25
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1507 SUBCOMPONENT @1500 DESIGNATED 3700 LABEL "BGSpawn-SpawnProbability-85"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
+    OUTER_SPRINT "spawnPerc" 85
+    OUTER_SPRINT "spawnRem" 15
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
+BEGIN @1508 SUBCOMPONENT @1500 DESIGNATED 3800 LABEL "BGSpawn-SpawnProbability-100"
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2    
+    OUTER_SPRINT "spawnPerc" 100
+    OUTER_SPRINT "spawnRem" 0
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 // Vampiric Wolf Lord (inspired to DavidW's Wolf of Ulcaster, with his permission) //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
-BEGIN @1200
+BEGIN @1200 DESIGNATED 4000 LABEL "BGSpawn-VampiricWolfLord"
     COPY ~%MOD_FOLDER%/cre/mm75hog.CRE~ ~override~ //its ~howl-of-the-grave~ spell creature
         WRITE_ASCII 0x248 ~mm75hog~
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/cre/mm75hog.baf~
@@ -617,12 +586,12 @@ BEGIN @1200
         REPLACE ~666604~ @1709
         REPLACE ~666605~ @1710
 
-    /////////////////////////////////////////////////
+/////////////////////////////////////////////////
 //                                             //
 // BGSpawn for Random Encounters between Areas //
 //                                             //
 /////////////////////////////////////////////////
-BEGIN @1105
+BEGIN @1105 DESIGNATED 5000 LABEL "BGSpawn-RandomEncounters"
     // Handle non-fixpacked BG2
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         APPEND ~state.ids~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
