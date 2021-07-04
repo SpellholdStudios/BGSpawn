@@ -1,0 +1,4444 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet2779661_1","AR8800",0)
+  Global("RandomBeenSet2779661","AR8800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet2779661_1","AR8800",1)
+    SetGlobal("RandomBeenSet2779661","AR8800",1)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #70
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #70
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #60
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #11
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(1)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(2)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(3)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(4)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(5)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(0)
+  TimeOfDay(3)
+  NumInParty(6)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #70
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #70
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #35
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),1,LEVEL)
+  CheckStat(StrongestOf(Myself),1,LEVEL2)
+  CheckStat(StrongestOf(Myself),1,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #60
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),2,LEVEL)
+  CheckStat(StrongestOf(Myself),2,LEVEL2)
+  CheckStat(StrongestOf(Myself),2,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(3)
+  CheckStat(StrongestOf(Myself),3,LEVEL)
+  CheckStat(StrongestOf(Myself),3,LEVEL2)
+  CheckStat(StrongestOf(Myself),3,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #15
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(6)
+  CheckStat(StrongestOf(Myself),4,LEVEL)
+  CheckStat(StrongestOf(Myself),4,LEVEL2)
+  CheckStat(StrongestOf(Myself),4,LEVEL3)
+  CheckStat(StrongestOf(Myself),5,LEVEL)
+  CheckStat(StrongestOf(Myself),5,LEVEL2)
+  CheckStat(StrongestOf(Myself),5,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #11
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(6)
+  CheckStat(StrongestOf(Myself),6,LEVEL)
+  CheckStat(StrongestOf(Myself),6,LEVEL2)
+  CheckStat(StrongestOf(Myself),6,LEVEL3)
+  CheckStat(StrongestOf(Myself),7,LEVEL)
+  CheckStat(StrongestOf(Myself),7,LEVEL2)
+  CheckStat(StrongestOf(Myself),7,LEVEL3)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  !CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    CreateCreature("ETTERC",[2779.661],0)  // Ettercap
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    CreateCreature("SPIDHU",[2779.661],0)  // Huge Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #3
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(1)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(2)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(3)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(4)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(5)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #5
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+IF
+  Range([PC],35)
+  OR(2)
+  TimeOfDay(1)
+  TimeOfDay(2)
+  NumInParty(6)
+  OR(3)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+  CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+  Global("SpawnReset2779661","AR8800",0)
+  Global("RandomSet2779661_1","AR8800",1)
+THEN
+  RESPONSE #20
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #10
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    CreateCreature("SPIDWR",[2779.661],0)  // Wraith Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    CreateCreature("SPIDPH",[2779.661],0)  // Phase Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+  RESPONSE #4
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDGI",[2779.661],0)  // Giant Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    CreateCreature("SPIDSW",[2779.661],0)  // Sword Spider
+    SetGlobalTimer("21002779661","AR8800",EIGHT_HOURS)
+END
+
+
+
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset2779661","AR8800",1)
+  GlobalTimerExpired("21002779661","AR8800")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2779661","AR8800",0)
+    SetGlobal("RandomBeenSet2779661","AR8800",0)
+    SetGlobal("RandomSet2779661_1","AR8800",0)
+    SetGlobal("RandomSet2779661_0","AR8800",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset2779661","AR8800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2779661","AR8800",1)
+    CreateCreature("SPIDHU",[2779.661],0)  // ~Huge Spider~
+    SetGlobalTimer("21002779661","AR8800",2400)
+END
+

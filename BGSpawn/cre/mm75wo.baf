@@ -1,0 +1,79 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		SetGlobal("wolfbattlestarted","LOCALS",0)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+	Global("wolfhowls","LOCALS",0)
+	!GlobalTimerNotExpired("castspell","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("castspell","LOCALS",6)
+		DisplayStringHead(Myself,666601) //aroooouuuuuuu
+		PlaySound("VWOLF03")
+		DisplayString(Myself,666602) //Howl of Terror
+		ReallyForceSpell(Myself,WIZARD_HORROR)
+		SetGlobal("wolfhowls","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("wolfhowls","LOCALS",1)
+	!GlobalTimerNotExpired("castspell","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("castspell","LOCALS",6)
+		DisplayStringHead(Myself,666601) //aroooouuuuuuu
+		DisplayString(Myself,666603) //Howl of the grave
+		PlaySound("VWOLF03")
+		SetGlobalTimer("wolfhowls","LOCALS",6)
+		CreateCreature("mm75hog",[-1.-1],0)
+		SetGlobal("wolfhowls","LOCALS",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("wolfhowls","LOCALS",2)
+	!GlobalTimerNotExpired("castspell","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("castspell","LOCALS",6)
+		DisplayStringHead(Myself,666601) //aroooouuuuuuu
+		PlaySound("VWOLF03")
+		DisplayString(Myself,666604) //Howl of Disenchantment
+		ReallyForceSpell(Myself,WIZARD_DISPEL_MAGIC)
+		SetGlobal("wolfhowls","LOCALS",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("wolfhowls","LOCALS",3)
+	!GlobalTimerNotExpired("castspell","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("castspell","LOCALS",6)
+		DisplayStringHead(Myself,666601) //aroooouuuuuuu
+		PlaySound("VWOLF03")
+		DisplayString(Myself,666605) //Howl of Ill Fate
+		ReallyForceSpell(Myself,WIZARD_GREATER_MALISON)
+		SetGlobal("wolfhowls","LOCALS",4)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalGT("wolfhowls","LOCALS",3)
+	!GlobalTimerNotExpired("castspell","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("castspell","LOCALS",6)
+		DisplayStringHead(Myself,666601) //aroooouuuuuuu
+		PlaySound("VWOLF03")
+		DisplayString(Myself,666602) //Howl of Terror
+		ReallyForceSpell(Myself,WIZARD_HORROR)
+END
+

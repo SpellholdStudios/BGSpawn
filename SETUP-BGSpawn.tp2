@@ -1,0 +1,474 @@
+BACKUP ~BGSpawn/backup~
+
+AUTHOR ~Melkor Morgoth75~
+
+VERSION ~1.12~
+
+README ~BGSpawn/Help/BGSpawnReadme.doc~
+
+
+// Copied directly from BGT-Tweaks code (ascension64)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//PATCH_MACRO are_update_offset
+//for addition of extended headers, this macro updates offsets of all extended headers that occur later than the extended header modified, then updates offsets stored in the variables
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Variables that need to be defined:
+// -are_update_offset_increment
+// -are_update_offset_datatype (can be actor, info, spawn, entrance, container, item, vertex, ambient, variable, door, explored, anim, tiled, song, rest, automap)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Other requirements:
+// -all types of %are_update_offset_datatype%_off must have been read
+// -the specified %are_update_offset_datatype%_num must have been read
+//////////////////////////////////////////////////////////////////////////////////////////////////
+DEFINE_PATCH_MACRO are_update_offset BEGIN
+  SPRINT are_update_offset_datatype_off "%are_update_offset_datatype%_off"
+  SPRINT are_update_offset_datatype_num "%are_update_offset_datatype%_num"
+
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "actor")=0))
+            AND (("%actor_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%actor_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x54 ("%actor_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "info")=0))   
+            AND (("%info_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%info_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x5c ("%info_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "spawn")=0))
+            AND (("%spawn_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%spawn_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x60 ("%spawn_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "entrance")=0))
+            AND (("%entrance_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%entrance_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x68 ("%entrance_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "container")=0))
+            AND (("%container_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%container_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x70 ("%container_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "item")=0))
+            AND (("%item_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%item_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x78 ("%item_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "vertex")=0))
+            AND (("%vertex_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%vertex_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x7c ("%vertex_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "ambient")=0))
+            AND (("%ambient_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%ambient_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x84 ("%ambient_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "variable")=0))
+            AND (("%variable_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%variable_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0x88 ("%variable_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "door")=0))
+            AND (("%door_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%door_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xa8 ("%door_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "explored")=0))
+            AND (("%explored_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%explored_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xa0 ("%explored_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "anim")=0))
+            AND (("%anim_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%anim_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xb0 ("%anim_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "tiled")=0))
+            AND (("%tiled_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%tiled_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xb8 ("%tiled_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "song")=0))
+            AND (("%song_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%song_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xbc ("%song_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "rest")=0))
+            AND (("%rest_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%rest_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xc0 ("%rest_off%" + "%are_update_offset_increment%")
+  END
+  PATCH_IF (NOT (("%are_update_offset_datatype%" STRING_COMPARE_CASE "automap")=0))
+            AND (("%automap_off%" > EVALUATE_BUFFER "%%are_update_offset_datatype_off%%")
+            OR (("%automap_off%" = EVALUATE_BUFFER "%%are_update_offset_datatype_off%%") AND (EVALUATE_BUFFER "%%are_update_offset_datatype_num%%" = 0))) BEGIN
+    WRITE_LONG 0xc4 ("%automap_off%" + "%are_update_offset_increment%")
+  END
+
+  READ_LONG 0x54 actor_off
+  READ_LONG 0x5c info_off
+  READ_LONG 0x60 spawn_off
+  READ_LONG 0x68 entrance_off
+  READ_LONG 0x70 container_off
+  READ_LONG 0x78 item_off
+  READ_LONG 0x7c vertex_off
+  READ_LONG 0x84 ambient_off
+  READ_LONG 0x88 variable_off
+  READ_LONG 0xa8 door_off
+  READ_LONG 0xa0 explored_off
+  READ_LONG 0xb0 anim_off
+  READ_LONG 0xb8 tiled_off
+  READ_LONG 0xbc song_off
+  READ_LONG 0xc0 rest_off
+  READ_LONG 0xc4 automap_off
+
+END
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+LANGUAGE 
+"English" 
+"BGSpawn/tra/english" 
+ ~BGSpawn/tra/english/english.tra~
+
+LANGUAGE 
+"German [by 10th]" 
+"BGSpawn/tra/german" 
+ ~BGSpawn/tra/german/german.tra~
+
+LANGUAGE 
+"Italian [by Ilot]" 
+"BGSpawn/tra/italian" 
+ ~BGSpawn/tra/italian/italian.tra~
+
+LANGUAGE 
+"French [by Isaya]" 
+"BGSpawn/tra/french" 
+ ~BGSpawn/tra/french/french.tra~
+
+LANGUAGE 
+"Russian [by Prowler]" 
+"BGSpawn/tra/russian" 
+~BGSpawn/tra/russian/russian.tra~
+
+LANGUAGE 
+"Castellano [Por Lisandro]" 
+"BGSpawn/tra/Spanish" 
+ ~BGSpawn/tra/Spanish/spanish.tra~
+
+LANGUAGE
+"ºÚÃÂ÷–Œƒ [by Delmarey and Magician]"
+"BGSpawn/tra/chs"
+~BGSpawn/tra/chs/chs.tra~
+
+LANGUAGE
+%¡c≈È§§§Â [by Delmarey and Magician]%
+%BGSpawn/tra/chs%
+%BGSpawn/tra/cht/cht.tra%
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                 //
+// Melkor Morgoth75 - BGSpawn Levelled System (thanks to ascension64 for most of the the tp2 code) //
+//                                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+BEGIN @1101
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+
+// Copy all new cre files
+
+COPY ~BGSpawn/cre/sbearbl.CRE~ ~override~
+COPY ~BGSpawn/cre/sbeargr.CRE~ ~override~
+COPY ~BGSpawn/cre/sdruid3.CRE~ ~override~
+COPY ~BGSpawn/cre/selorc01.CRE~ ~override~
+COPY ~BGSpawn/cre/sghastgr.CRE~ ~override~
+COPY ~BGSpawn/cre/shobsl01.CRE~ ~override~
+COPY ~BGSpawn/cre/rogtro.CRE~ ~override~
+	SAY 0x8 @1306
+	SAY 0xc @1306
+COPY ~BGSpawn/cre/sxvart.CRE~ ~override~
+	SAY 0x8 @1303
+	SAY 0xc @1303
+COPY ~BGSpawn/cre/KOBLDGD.CRE~ ~override~
+	SAY 0x8 @1302
+	SAY 0xc @1302
+COPY ~BGSpawn/cre/skobchie.CRE~ ~override~
+	SAY 0x8 @1301
+	SAY 0xc @1301
+COPY ~BGSpawn/cre/sdograb.CRE~ ~override~
+COPY ~BGSpawn/cre/sanditc.CRE~ ~override~
+COPY ~BGSpawn/cre/srevnnt.CRE~ ~override~
+COPY ~BGSpawn/cre/ssnake01.CRE~ ~override~
+COPY ~BGSpawn/cre/szombl01.CRE~ ~override~
+COPY ~BGSpawn/cre/sgnoll.CRE~ ~override~
+	SAY 0x8 @1304
+	SAY 0xc @1304
+COPY ~BGSpawn/cre/sironarc.CRE~ ~override~
+	SAY 0x8 @1305
+	SAY 0xc @1305
+
+
+// Compiling Scripts for Creatures
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/sgnoll.baf~
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/rogtro.baf~
+
+// END of Scripts for CRE
+
+
+// Copied directly from BGT-Tweaks code (ascension64)
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~FW01230.BCS~ THEN BEGIN // Check if BGT-Tutu levelled spawn is installed 
+
+COPY ~BGSpawn/info~ ~BGSpawn/info~
+  SPRINT source "%SOURCE_RES%"
+  SET info_vertex_num_new_total = 0
+
+  PATCH_IF NOT ("%SOURCE_SIZE%" = 0) BEGIN
+    FOR (i=0;i<10000;i+=1) BEGIN
+      READ_ASCII ("%i%"*0xc4) info_data_new (196)
+      READ_ASCII (("%i%" + 1)*0xc4) buffer ELSE 10000 (196) 
+      READ_SHORT ("%i%"*0xc4 + 0x2a) info_vertex_num_new
+      SET info_vertex_num_new_total += "%info_vertex_num_new%"
+
+      INNER_ACTION BEGIN
+        COPY_EXISTING ~%source%.ARE~ ~override/%source%.ARE~
+          READ_LONG 0x54 actor_off
+          READ_LONG 0x5c info_off
+          READ_LONG 0x60 spawn_off
+          READ_LONG 0x68 entrance_off
+          READ_LONG 0x70 container_off
+          READ_LONG 0x78 item_off
+          READ_LONG 0x7c vertex_off
+          READ_LONG 0x84 ambient_off
+          READ_LONG 0x88 variable_off
+          READ_LONG 0xa8 door_off
+          READ_LONG 0xa0 explored_off
+          READ_LONG 0xb0 anim_off
+          READ_LONG 0xb8 tiled_off
+          READ_LONG 0xbc song_off
+          READ_LONG 0xc0 rest_off
+          READ_LONG 0xc4 automap_off
+
+          READ_SHORT 0x5a info_num
+          READ_SHORT 0x64 spawn_num
+          READ_SHORT 0x74 container_num
+          READ_SHORT 0x80 vertex_num
+          READ_SHORT 0xa4 door_num
+
+         
+          FOR (n=0;n<"%spawn_num%";n+=1) BEGIN
+            WRITE_SHORT ("%spawn_off%" + "%n%"*0xc8 + 0x86) 0
+          END
+
+         
+          SPRINT are_update_offset_datatype "info"
+          SET are_update_offset_increment = 196
+          LAUNCH_PATCH_MACRO are_update_offset
+
+   
+          INSERT_BYTES "%info_off%" 196
+          WRITE_EVALUATED_ASCII "%info_off%" "%info_data_new%" #196
+          WRITE_LONG ("%info_off%" + 0x2c) 0 //set first vertex index to zero
+          SET info_num +=1
+          WRITE_SHORT 0x5a "%info_num%"
+
+         
+          SPRINT are_update_offset_datatype "vertex"
+          SET are_update_offset_increment = 0x4 * "%info_vertex_num_new%"
+          LAUNCH_PATCH_MACRO are_update_offset
+
+     
+          FOR (j=0;j<"%info_vertex_num_new%";j+=1) BEGIN
+            
+            INNER_ACTION BEGIN
+              COPY ~BGSpawn/vertex/%source%.vtx~ ~BGSpawn/vertex/%source%.vtx~
+                READ_LONG (("%j%" + "%info_vertex_num_new_total%" - "%info_vertex_num_new%")*0x4) vertex_data_new
+              BUT_ONLY_IF_IT_CHANGES
+            END          
+
+            READ_SHORT 0x80 vertex_num
+            INSERT_BYTES ("%vertex_off%") 4
+            WRITE_LONG ("%vertex_off%") "%vertex_data_new%"
+            SET vertex_num +=1
+            WRITE_SHORT 0x80 "%vertex_num%"
+          END
+
+         
+          FOR (k=1;k<"%info_num%";k+=1) BEGIN
+            READ_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) info_vertex_first_idx
+            WRITE_SHORT ("%info_off%" + "%k%"*0xc4 + 0x2c) ("%info_vertex_first_idx%" + "%info_vertex_num_new%")
+          END
+
+    
+          FOR (l=0;l<"%door_num%";l+=1) BEGIN
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) door_vertex_open_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) door_vertex_closed_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) door_vertex_impede_closed_first_idx
+            READ_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) door_vertex_impede_open_first_idx
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x2c) ("%door_vertex_open_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x34) ("%door_vertex_closed_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x48) ("%door_vertex_impede_closed_first_idx%" + "%info_vertex_num_new%")
+            WRITE_LONG ("%door_off%" + "%l%"*0xc8 + 0x50) ("%door_vertex_impede_open_first_idx%" + "%info_vertex_num_new%")
+          END
+
+      
+          FOR (m=0;m<"%container_num%";m+=1) BEGIN
+            READ_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) container_vertex_first_idx
+            WRITE_LONG ("%container_off%" + "%m%"*0xc0 + 0x50) ("%container_vertex_first_idx%" + "%info_vertex_num_new%")
+          END
+
+        BUT_ONLY_IF_IT_CHANGES
+      END
+
+      
+      PATCH_IF (("%buffer%" STRING_COMPARE_CASE "10000")=0) BEGIN
+        SET i = 10000
+      END
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+END
+
+PRINT @1150
+
+COMPILE ~BGSpawn/scripts~
+
+
+//////////////////////////////////////////////////////
+//                                                  //
+// Asking for users' input about time of a re-spawn //
+//                                                  //
+//////////////////////////////////////////////////////
+
+BEGIN @1160
+PRINT @1161
+PRINT @1162
+PRINT @1163
+PRINT @1164
+
+ACTION_READLN %spawns%
+
+OUTER_WHILE NOT(IS_AN_INT %spawns%) BEGIN
+ PRINT @1165
+ PRINT @1161
+ PRINT @1162
+ PRINT @1163
+ PRINT @1164
+ ACTION_READLN %spawns%
+END
+
+ACTION_IF (%spawns% = 1) BEGIN 
+         OUTER_SET %spawns% = 2400      // 8 Hours
+END
+
+ACTION_IF (%spawns% = 2) BEGIN 
+         OUTER_SET %spawns% = 7200      // 1 Day
+END
+
+ACTION_IF (%spawns% = 3) BEGIN 
+         OUTER_SET %spawns% = 72000     // 10 Days
+END
+
+ACTION_IF (%spawns% = 4) BEGIN 
+         OUTER_SET %spawns% = 360000    // 50 Days
+END
+
+
+// The following replaces EIGHT_HOURS value in all .baf files with time of re-spawning from users' input
+// Thanks ascension64! :-)
+
+
+COPY ~BGSpawn/scripts~ ~BGSpawn/scripts~
+  REPLACE_TEXTUALLY ~\(SetGlobalTimer("[0-9]+","[0-9A-Za-z]+",\)[\(EIGHT_HOURS\)|\(2400\)]+)~ ~\1%spawns%)~
+
+PRINT @1150
+
+COMPILE ~BGSpawn/scripts~
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+// Vampiric Wolf Lord (inspired to DavidW's Wolf of Ulcaster, with his permission) //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+BEGIN @1200
+
+COPY ~BGSpawn/cre/mm75hog.CRE~ ~override~ //its ~howl-of-the-grave~ spell creature
+	WRITE_ASCII 0x248 ~mm75hog~
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/mm75hog.baf~
+	
+COPY_EXISTING ~wolfva01.cre~ ~override/wolfva01.cre~
+	WRITE_ASCII 0x248 ~mm75wo~
+	SAY 0x8 @1705
+	SAY 0xc @1705
+	WRITE_SHORT 0x24 100
+	WRITE_SHORT 0x26 100
+	WRITE_SHORT 0x46 ~-2~
+	WRITE_BYTE 0x52 11
+	WRITE_BYTE 0x53 2
+	WRITE_SHORT 0x14 4000
+
+
+COMPILE EVALUATE_BUFFER ~BGSpawn/cre/mm75wo.baf~
+
+COPY_EXISTING ~override/mm75wo.bcs~ ~override~
+	REPLACE ~666601~ @1706
+	REPLACE ~666602~ @1707
+	REPLACE ~666603~ @1708
+	REPLACE ~666604~ @1709
+	REPLACE ~666605~ @1710
+
+
+/////////////////////////////////////////////////
+//                                             //
+// BGSpawn for Random Encounters between Areas //
+//                                             //
+/////////////////////////////////////////////////
+
+BEGIN @1105
+
+// Copy area files
+
+COPY ~BGSpawn/are/AR4700.ARE~ ~override~
+COPY ~BGSpawn/are/AR4701.ARE~ ~override~
+COPY ~BGSpawn/are/AR4800.ARE~ ~override~
+COPY ~BGSpawn/are/AR4801.ARE~ ~override~
+COPY ~BGSpawn/are/AR4900.ARE~ ~override~
+COPY ~BGSpawn/are/AR4901.ARE~ ~override~
+COPY ~BGSpawn/are/AR5400.ARE~ ~override~
+COPY ~BGSpawn/are/AR5300.ARE~ ~override~
+COPY ~BGSpawn/are/AR5301.ARE~ ~override~
+COPY ~BGSpawn/are/AR5100.ARE~ ~override~
+COPY ~BGSpawn/are/AR5101.ARE~ ~override~
+
+
+COMPILE ~BGSpawn/are~
+
+COPY ~BGSpawn/cre/sbaloch.CRE~ ~override~
+	SAY 0x8 @1307
+	SAY 0xc @1307
+COPY ~BGSpawn/cre/sftroll.CRE~ ~override~
+	SAY 0x8 @1308
+	SAY 0xc @1308
+COPY ~BGSpawn/cre/sminotau.CRE~ ~override~
+COPY ~BGSpawn/cre/swatel01.CRE~ ~override~
+	SAY 0x8 @1309
+	SAY 0xc @1309
+COPY ~BGSpawn/cre/sflamcor.CRE~ ~override~
+	SAY 0x8 @1310
+	SAY 0xc @1310
+COPY ~BGSpawn/cre/sassass.CRE~ ~override~
+	SAY 0x8 @1311
+	SAY 0xc @1311
+COPY ~BGSpawn/cre/sankheg.CRE~ ~override~
+	SAY 0x8 @1312
+	SAY 0xc @1312
+COPY ~BGSpawn/cre/sankheg2.ITM~ ~override~

@@ -1,0 +1,34 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet1949267_0","ARW012",0)
+  Global("RandomBeenSet1949267","ARW012",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet1949267_0","ARW012",1)
+    SetGlobal("RandomBeenSet1949267","ARW012",1)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset1949267","ARW012",1)
+  GlobalTimerExpired("20121949267","ARW012")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1949267","ARW012",0)
+    SetGlobal("RandomBeenSet1949267","ARW012",0)
+    SetGlobal("RandomSet1949267_0","ARW012",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset1949267","ARW012",0)
+THEN
+  RESPONSE #30
+    SetGlobal("SpawnReset1949267","ARW012",1)
+    CreateCreature("SHAWOL02",[1949.267],0)  // Greater Shade Wolf
+    SetGlobalTimer("20121949267","ARW012",EIGHT_HOURS)
+  RESPONSE #70
+    SetGlobal("SpawnReset1949267","ARW012",1)
+    SetGlobalTimer("20121949267","ARW012",EIGHT_HOURS)
+END
+
