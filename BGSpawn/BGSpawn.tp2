@@ -490,7 +490,13 @@ BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
     END
     PRINT @1150
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts~
-
+    // Housekeeping for EET
+    ACTION_IF GAME_IS ~eet~ BEGIN
+        ACTION_PHP_EACH file_names AS bgt => eet BEGIN
+            MOVE ~%MOD_FOLDER%/info/%eet%.nfp~ ~%MOD_FOLDER%/info/%bgt%.nfp~
+            MOVE ~%MOD_FOLDER%/vertex/%eet%.vtx~ ~%MOD_FOLDER%/vertex/%bgt%.vtx~
+        END
+    END
 
 BEGIN @1161 SUBCOMPONENT @1160 DESIGNATED 2100 LABEL "BGSpawn-RespawnTime8Hours"
     REQUIRE_PREDICATE MOD_IS_INSTALLED "BGSpawn.tp2" ( ID_OF_LABEL "BGSpawn.tp2" "BGSpawn-Main" ) @2
@@ -654,10 +660,4 @@ BEGIN @1105 DESIGNATED 5000 LABEL "BGSpawn-RandomEncounters"
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/cre/sftrolxd.baf~
     // END of Scripts for CRE
 
-    // Housekeeping for EET
-    ACTION_IF GAME_IS ~eet~ BEGIN
-        ACTION_PHP_EACH file_names AS bgt => eet BEGIN
-            MOVE ~%MOD_FOLDER%/info/%eet%.nfp~ ~%MOD_FOLDER%/info/%bgt%.nfp~
-            MOVE ~%MOD_FOLDER%/vertex/%eet%.vtx~ ~%MOD_FOLDER%/vertex/%bgt%.vtx~
-        END
-    END
+
