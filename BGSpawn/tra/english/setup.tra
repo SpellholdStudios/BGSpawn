@@ -1,4 +1,4 @@
-@1 = ~BGT-WeiDU or EET could not be detected.~
+@1 = ~BGT or EET could not be detected.~
 
 @1101 = ~BGSpawn system based on levels & party members
 (NOTE: BGT or EET required)~
@@ -13,7 +13,7 @@
 @1162 = ~2. Re-spawn time = 24 hours~
 @1163 = ~3. Re-spawn time = 10 days~
 @1164 = ~4. Re-spawn time = 50 days (eventually, no chance of re-spawned creatures)~
-@1165 = ~Your answer was not an integer. Please choose 1,2,3 or 4~
+@1165 = ~Please choose 1,2,3 or 4~
 
 @1200 = ~Vampiric Wolf Lord (inspired to DavidW Wolf of Ulcaster)
 NOTE: this changes some Vampiric Wolf in the game. It's used by BGSpawn-system~
@@ -27,4 +27,4 @@ NOTE: this changes some Vampiric Wolf in the game. It's used by BGSpawn-system~
 @1506 = ~6. 75%~
 @1507 = ~7. 85%~
 @1508 = ~8. 100%~
-@1509 = ~Choose 1-8~
+@1509 = ~Please choose 1-8~

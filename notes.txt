@@ -1,6 +1,0 @@
-Updates:
-– BiG World Fixpack v19 patch incorporated
-– EET support added (cpmvars; file renaming as necessary at install time, restored afterwards)
-– Language setup updated for EE ('setup' / 'game' tra files; iconv added for UTF-8)
-– Adjustable spawnpoint probability added (with a nod to the bgeespawn project)
-– AUTHOR replaced by SUPPORT in tp2 file
