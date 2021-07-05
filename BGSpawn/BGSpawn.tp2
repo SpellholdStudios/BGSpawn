@@ -137,7 +137,7 @@ ALWAYS
             INT_VAR
                 infer_charsets = 1
             STR_VAR
-                tra_path = ~%MOD_FOLDER%/lang~
+                tra_path = EVAL ~%MOD_FOLDER%/lang~
                 noconvert_array = fl#noconvert
                 reload_array = fl#reload
                 default_language = "english"
