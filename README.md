@@ -1,4 +1,4 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/SpellholdStudios/BGSpawn?color=darkred&include_prereleases&label=latest%20release)](https://github.com/SpellholdStudios/BGSpawn/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/SpellholdStudios/BGSpawn?color=darkred&include_prereleases&label=latest%20release)](https://github.com/SpellholdStudios/BGSpawn/releases/latest)
 [![Github downloads (all releases)](https://img.shields.io/github/downloads/SpellholdStudios/BGSpawn/total.svg?color=gold)](https://github.com/SpellholdStudios/BGSpawn/releases)
 [![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux&color=informational)](https://github.com/SpellholdStudios/BGSpawn/releases/latest)
 [![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=indigo)](https://github.com/SpellholdStudios/BGSpawn/releases)
