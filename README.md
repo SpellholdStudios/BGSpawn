@@ -86,4 +86,4 @@ Special thanks to:
 
 # 7. CHANGES
 
-Please see [https://github.com/SpellholdStudios/BGSpawn/BGSpawn/Changelog.md ](https://github.com/SpellholdStudios/BGSpawn/blob/master/BGSpawn/Changelog.md)
+Please see [Changelog.md ](https://github.com/SpellholdStudios/BGSpawn/blob/master/BGSpawn/Changelog.md)
