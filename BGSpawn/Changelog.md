@@ -21,6 +21,9 @@
 - Adjustable spawnpoint probability added (with a nod to the bgeespawn project)
 - AUTHOR replaced by SUPPORT in tp2 file
 
+# V 1.12
+- Fix: Random Encounters between Areas now works without any delay in creatures-spawning
+
 # V 1.11
 - New component: "Random Encounters between Areas"
 - Fix: Sea Troll should be definitely fixed (new cre file) to avoid "the fence quest" to be broken.
