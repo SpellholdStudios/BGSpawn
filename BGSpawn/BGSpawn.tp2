@@ -2,7 +2,7 @@ BACKUP ~weidu_external/backup/BGSpawn~
 
 SUPPORT ~http://www.shsforums.net/topic/39639-release-bgspawn-version-111/~ //AUTHOR ~Melkor Morgoth75~
 
-VERSION ~1.3.0~
+VERSION ~1.3.1~
 
 README ~%MOD_FOLDER%/docs/BGSpawnReadme.doc~
 
@@ -146,30 +146,6 @@ ALWAYS
 
     OUTER_SPRINT "spawnPerc" 100
     OUTER_SPRINT "spawnRem" 0
-
-END
-
-LANGUAGE "English" "english" ~BGSpawn/lang/english/setup.tra~ ~BGSpawn/lang/english/game.tra~
-LANGUAGE "German [by 10th]" "german" ~BGSpawn/lang/german/setup.tra~ ~BGSpawn/lang/german/game.tra~
-LANGUAGE "Italian [by Ilot]" "italian" ~BGSpawn/lang/italian/setup.tra~ ~BGSpawn/lang/italian/game.tra~
-LANGUAGE "French [by Isaya]" "french" ~BGSpawn/lang/french/setup.tra~ ~BGSpawn/lang/french/game.tra~
-LANGUAGE "Russian [by Prowler]" "russian" ~BGSpawn/lang/russian/setup.tra~ ~BGSpawn/lang/russian/game.tra~
-LANGUAGE "Castellano [Por Lisandro]" "Spanish" ~BGSpawn/lang/Spanish/setup.tra~ ~BGSpawn/lang/Spanish/game.tra~
-LANGUAGE "简体中文 [by Delmarey and Magician]" "chinese" ~BGSpawn/lang/chinese/setup.tra~ ~BGSpawn/lang/chinese/game.tra~
-LANGUAGE "繁體中文 [by Delmarey and Magician]" "chineset" ~BGSpawn/lang/chineset/setup.tra~ ~BGSpawn/lang/chineset/game.tra~
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                             //
-// Melkor Morgoth75 - BGSpawn Leveled System (thanks to ascension64 for most of the tp2 code) //
-//                                                                                             //
-/////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
-    REQUIRE_PREDICATE (GAME_IS ~bgt eet~) @1
-
-    // Handle non-fixpacked BG2
-    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-        APPEND ~state.ids~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
-    END
 
     ACTION_IF GAME_IS ~bgt~ BEGIN
         OUTER_SPRINT "Undercity" "AR7223"
@@ -347,6 +323,30 @@ BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
         "ARW000" => "BG2000"
         "ARW012" => "BG2012"
         "ARW500" => "BG1500"
+    END
+
+END
+
+LANGUAGE "English" "english" ~BGSpawn/lang/english/setup.tra~ ~BGSpawn/lang/english/game.tra~
+LANGUAGE "German [by 10th]" "german" ~BGSpawn/lang/german/setup.tra~ ~BGSpawn/lang/german/game.tra~
+LANGUAGE "Italian [by Ilot]" "italian" ~BGSpawn/lang/italian/setup.tra~ ~BGSpawn/lang/italian/game.tra~
+LANGUAGE "French [by Isaya]" "french" ~BGSpawn/lang/french/setup.tra~ ~BGSpawn/lang/french/game.tra~
+LANGUAGE "Russian [by Prowler]" "russian" ~BGSpawn/lang/russian/setup.tra~ ~BGSpawn/lang/russian/game.tra~
+LANGUAGE "Castellano [Por Lisandro]" "Spanish" ~BGSpawn/lang/Spanish/setup.tra~ ~BGSpawn/lang/Spanish/game.tra~
+LANGUAGE "简体中文 [by Delmarey and Magician]" "chinese" ~BGSpawn/lang/chinese/setup.tra~ ~BGSpawn/lang/chinese/game.tra~
+LANGUAGE "繁體中文 [by Delmarey and Magician]" "chineset" ~BGSpawn/lang/chineset/setup.tra~ ~BGSpawn/lang/chineset/game.tra~
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                             //
+// Melkor Morgoth75 - BGSpawn Leveled System (thanks to ascension64 for most of the tp2 code) //
+//                                                                                             //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
+    REQUIRE_PREDICATE (GAME_IS ~bgt eet~) @1
+
+    // Handle non-fixpacked BG2
+    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+        APPEND ~state.ids~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
     END
 
     // For EET
