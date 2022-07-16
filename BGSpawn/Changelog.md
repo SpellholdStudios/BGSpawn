@@ -1,3 +1,11 @@
+# 1.3.2: Graion Dilach
+- Fix: Substitute the remaining few BGT area names on EET.
+- Fix: Don't use BGT creature names where EET and BGT names differ.
+- Fix: Random Encounter component no longer breaks Dorn's fixed encounter.
+
+# 1.3.1: Graion Dilach
+- Fix: Move area list definition to the ALWAYS block to ensure substitution when a spawnprobability component si installed.
+
 # 1.3.0: AL|EN
 - replaced ACTION_READLN with SUBCOMPONENT to not halt installation
 - added DESIGNATED numbers
