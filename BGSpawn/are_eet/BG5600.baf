@@ -1395,7 +1395,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -1490,7 +1490,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -1581,7 +1581,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -1688,7 +1688,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -1813,7 +1813,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -1979,7 +1979,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2080,7 +2080,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2190,7 +2190,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2275,7 +2275,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2389,7 +2389,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2510,7 +2510,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2629,12 +2629,12 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -2699,7 +2699,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -2785,7 +2785,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -2859,12 +2859,12 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -2945,18 +2945,18 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -3081,18 +3081,18 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #7
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -3202,14 +3202,14 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -5860,7 +5860,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6007,7 +6007,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6172,7 +6172,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6366,7 +6366,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6567,7 +6567,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6882,7 +6882,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
 END
 
@@ -6988,7 +6988,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -7131,7 +7131,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -7314,7 +7314,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -7561,7 +7561,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -7835,7 +7835,7 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
@@ -8179,12 +8179,12 @@ THEN
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
+    CreateCreature("BASILL",[566.234],0)  // Lesser Basilisk
     SetGlobalTimer("4700566234","%Encounter_Plains1%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset566234","%Encounter_Plains1%",1)

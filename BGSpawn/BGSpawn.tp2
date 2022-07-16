@@ -148,6 +148,7 @@ ALWAYS
     OUTER_SPRINT "spawnRem" 0
 
     ACTION_IF GAME_IS ~bgt~ BEGIN
+        // areas
         OUTER_SPRINT "Undercity" "AR7223"
         OUTER_SPRINT "WSewers" "AR7324"
         OUTER_SPRINT "CentralSewers" "AR7325"
@@ -208,9 +209,15 @@ ALWAYS
         OUTER_SPRINT "Encounter_Forest1" "AR5300"
         OUTER_SPRINT "Encounter_Forest2" "AR5301"
         OUTER_SPRINT "Encounter_Road" "AR5400"
+        // creature files
+        OUTER_SPRINT "Basilisk" "BGBASILL"
+        // OUTER_SPRINT "Ghast" "BGGHAST" not-in-use
+        OUTER_SPRINT "Wolf" "BGWOLF"
+        // OUTER_SPRINT "GreaterWolfwere" "BGWOWEGR" not-in-use
 
 
     END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+        // areas
         OUTER_SPRINT "Undercity" "BG0123"
         OUTER_SPRINT "WSewers" "BG0224"
         OUTER_SPRINT "CentralSewers" "BG0225"
@@ -271,6 +278,11 @@ ALWAYS
         OUTER_SPRINT "Encounter_Forest1" "BG6000"
         OUTER_SPRINT "Encounter_Forest2" "BG6001"
         OUTER_SPRINT "Encounter_Road" "BG6100"
+        // creature files
+        OUTER_SPRINT "Basilisk" "BASILL"
+        // OUTER_SPRINT "Ghast" "GHAST" not-in-use
+        OUTER_SPRINT "Wolf" "WOLF"
+        // OUTER_SPRINT "GreaterWolfwere" "WOLFWEGR" not-in-use
     END
 
     ACTION_DEFINE_ASSOCIATIVE_ARRAY file_names BEGIN
@@ -617,18 +629,31 @@ BEGIN @1105 DESIGNATED 5000 LABEL "BGSpawn-RandomEncounters"
         COPY ~%MOD_FOLDER%/are_bgt/AR5101.ARE~ ~override~
         COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/are_bgt~
     END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
-        COPY ~%MOD_FOLDER%/are_eet/BG5600.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5601.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5700.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5701.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5800.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5801.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5900.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG5901.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG6000.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG6001.ARE~ ~override~
-        COPY ~%MOD_FOLDER%/are_eet/BG6100.ARE~ ~override~
-        COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/are_eet~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5600.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5601.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5700.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5701.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5800.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5801.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5900.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG5901.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG6000.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG6001.ARE~ ~override~
+        // COPY ~%MOD_FOLDER%/are_eet/BG6100.ARE~ ~override~
+        // COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/are_eet~
+        
+        // need to EXTEND_BOTTOM here, because COMPILE overwrite Dorn's fixed encounter (the scripts exist in the basegame already)
+        EXTEND_BOTTOM ~BG5600.BCS~ ~%MOD_FOLDER%/are_eet/BG5600.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5601.BCS~ ~%MOD_FOLDER%/are_eet/BG5601.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5700.BCS~ ~%MOD_FOLDER%/are_eet/BG5700.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5701.BCS~ ~%MOD_FOLDER%/are_eet/BG5701.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5800.BCS~ ~%MOD_FOLDER%/are_eet/BG5800.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5801.BCS~ ~%MOD_FOLDER%/are_eet/BG5801.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5900.BCS~ ~%MOD_FOLDER%/are_eet/BG5900.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG5901.BCS~ ~%MOD_FOLDER%/are_eet/BG5901.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG6000.BCS~ ~%MOD_FOLDER%/are_eet/BG6000.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG6001.BCS~ ~%MOD_FOLDER%/are_eet/BG6001.baf~ EVALUATE_BUFFER
+        EXTEND_BOTTOM ~BG6100.BCS~ ~%MOD_FOLDER%/are_eet/BG6100.baf~ EVALUATE_BUFFER
     END
     COPY ~%MOD_FOLDER%/cre/sbaloch.CRE~ ~override~
         SAY 0x8 @1307

@@ -8985,7 +8985,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset27552102","%NashkelMines%",1)
-    CreateCreature("BGWOLF",[2755.2102],0)  // ~Wolf~
+    CreateCreature("%Wolf%",[2755.2102],0)  // ~Wolf~
     SetGlobalTimer("540027552102","%NashkelMines%",2400)
 END
 

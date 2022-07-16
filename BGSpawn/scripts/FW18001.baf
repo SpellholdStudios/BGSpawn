@@ -11819,7 +11819,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset3021292","%CloakwoodMines%",1)
-    CreateCreature("BGWOLF",[3021.292],0)  // ~Wolf~
+    CreateCreature("%Wolf%",[3021.292],0)  // ~Wolf~
     SetGlobalTimer("18003021292","%CloakwoodMines%",2400)
 END
 

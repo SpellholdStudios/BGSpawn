@@ -6042,7 +6042,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset39833025","%ShipwrecksCoast%",1)
-    CreateCreature("BGWOLF",[3983.3025],0)  // ~Wolf~
+    CreateCreature("%Wolf%",[3983.3025],0)  // ~Wolf~
     SetGlobalTimer("310039833025","%ShipwrecksCoast%",2400)
 END
 

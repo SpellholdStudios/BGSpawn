@@ -397,7 +397,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -434,7 +434,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -473,7 +473,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -512,7 +512,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -553,7 +553,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -602,7 +602,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -649,7 +649,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -689,7 +689,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -729,7 +729,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -775,7 +775,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -821,7 +821,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -863,7 +863,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -899,7 +899,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -944,7 +944,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -989,7 +989,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1036,7 +1036,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1083,7 +1083,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1138,7 +1138,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1184,7 +1184,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1218,7 +1218,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1252,12 +1252,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1297,12 +1297,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1349,12 +1349,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1401,12 +1401,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1889,7 +1889,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #24
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1931,7 +1931,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -1979,7 +1979,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2027,7 +2027,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2090,7 +2090,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2153,7 +2153,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2227,7 +2227,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2291,7 +2291,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2357,7 +2357,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2437,7 +2437,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2528,7 +2528,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #12
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2621,7 +2621,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2736,7 +2736,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2820,7 +2820,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -2910,7 +2910,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3023,7 +3023,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3094,7 +3094,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3186,7 +3186,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3232,7 +3232,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3284,7 +3284,7 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3363,12 +3363,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3446,12 +3446,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3559,12 +3559,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
@@ -3686,12 +3686,12 @@ THEN
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1891.1761],0)  // Lesser Basilisk
     SetGlobalTimer("050018911761","%DurlagsTower%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset18911761","%DurlagsTower%",1)

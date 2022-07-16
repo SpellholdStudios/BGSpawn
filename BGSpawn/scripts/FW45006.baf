@@ -1374,7 +1374,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -1468,7 +1468,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -1558,7 +1558,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -1659,7 +1659,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -1778,7 +1778,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -1938,7 +1938,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2033,7 +2033,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2137,7 +2137,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2216,7 +2216,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2324,7 +2324,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2439,7 +2439,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2552,12 +2552,12 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -2620,7 +2620,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -2704,7 +2704,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -2776,12 +2776,12 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -2854,18 +2854,18 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -2982,18 +2982,18 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #7
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -3095,14 +3095,14 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -5721,7 +5721,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -5866,7 +5866,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -6029,7 +6029,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -6220,7 +6220,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -6418,7 +6418,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -6730,7 +6730,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
 END
 
@@ -6834,7 +6834,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -6975,7 +6975,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -7155,7 +7155,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -7399,7 +7399,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -7669,7 +7669,7 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
@@ -8009,12 +8009,12 @@ THEN
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[1488.2336],0)  // Lesser Basilisk
     SetGlobalTimer("450014882336","%FirewineBridge%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset14882336","%FirewineBridge%",1)
