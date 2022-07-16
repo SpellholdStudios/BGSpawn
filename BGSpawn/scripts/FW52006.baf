@@ -14337,7 +14337,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset8812064","%DryadFalls%",1)
-    CreateCreature("BGWOLF",[881.2064],0)  // ~Wolf~
+    CreateCreature("%Wolf%",[881.2064],0)  // ~Wolf~
     SetGlobalTimer("52008812064","%DryadFalls%",2400)
 END
 

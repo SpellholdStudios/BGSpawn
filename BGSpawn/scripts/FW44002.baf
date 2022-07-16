@@ -8582,7 +8582,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset4023594","%LonelyPeaks%",1)
-    CreateCreature("BGWOLF",[4023.594],0)  // ~Wolf~
+    CreateCreature("%Wolf%",[4023.594],0)  // ~Wolf~
     SetGlobalTimer("44004023594","%LonelyPeaks%",2400)
 END
 

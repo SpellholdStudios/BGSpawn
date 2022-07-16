@@ -53,7 +53,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -90,7 +90,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -127,7 +127,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -169,7 +169,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -211,7 +211,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -258,7 +258,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -301,7 +301,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -349,7 +349,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -410,7 +410,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -487,7 +487,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -565,7 +565,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -676,7 +676,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -735,7 +735,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -822,7 +822,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -918,7 +918,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1031,7 +1031,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1149,7 +1149,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1266,7 +1266,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1325,7 +1325,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1396,7 +1396,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1477,7 +1477,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1613,7 +1613,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1758,7 +1758,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1925,7 +1925,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #11
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -1979,7 +1979,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2037,7 +2037,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2140,7 +2140,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2257,7 +2257,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2398,7 +2398,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2555,12 +2555,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2625,7 +2625,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2695,7 +2695,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2835,12 +2835,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -2980,12 +2980,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -3125,18 +3125,18 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -3281,18 +3281,18 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
 END
 
@@ -3334,7 +3334,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3379,7 +3379,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3424,7 +3424,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3474,7 +3474,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3524,7 +3524,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3574,7 +3574,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3619,7 +3619,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3664,7 +3664,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3719,7 +3719,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3779,7 +3779,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3839,7 +3839,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3911,7 +3911,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -3971,7 +3971,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4037,7 +4037,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4103,7 +4103,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4195,7 +4195,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4287,7 +4287,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4388,7 +4388,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4471,7 +4471,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4545,7 +4545,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4632,7 +4632,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4735,7 +4735,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4850,7 +4850,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -4973,7 +4973,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #4
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5062,7 +5062,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5168,7 +5168,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5286,7 +5286,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5439,7 +5439,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5557,7 +5557,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5712,12 +5712,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5796,7 +5796,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -5915,7 +5915,7 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -6047,12 +6047,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -6229,12 +6229,12 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #6
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -6447,18 +6447,18 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #11
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
@@ -6663,25 +6663,25 @@ THEN
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #2
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
-    CreateCreature("BGBASILL",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
+    CreateCreature("%Basilisk%",[503.1305],0)  // Lesser Basilisk
     SetGlobalTimer("35005031305","%MutaminsGarden%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset5031305","%MutaminsGarden%",1)

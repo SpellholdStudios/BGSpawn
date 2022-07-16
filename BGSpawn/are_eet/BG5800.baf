@@ -6116,7 +6116,6 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("SpawnReset1196106","%Encounter_Cliff1%",1)
-    CreateCreature("BGWOLF",[1196.106],0)  // ~Wolf~
+    CreateCreature("WOLF",[1196.106],0)  // ~Wolf~
     SetGlobalTimer("49001196106","%Encounter_Cliff1%",2400)
 END
-
