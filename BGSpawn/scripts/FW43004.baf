@@ -7138,43 +7138,43 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7268,61 +7268,61 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7414,46 +7414,46 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7523,41 +7523,41 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7651,60 +7651,60 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7813,68 +7813,68 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -7987,7 +7987,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -7995,9 +7995,9 @@ THEN
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -8005,50 +8005,50 @@ THEN
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBOLD_B",[3379.2980],0) // Kobold
@@ -8056,7 +8056,7 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -8178,7 +8178,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -8187,18 +8187,18 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -8207,58 +8207,58 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -8424,35 +8424,35 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -8541,36 +8541,36 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #3
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #3
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -8680,32 +8680,32 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #3
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #3
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -8713,7 +8713,7 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -8861,7 +8861,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -8869,9 +8869,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -8879,38 +8879,38 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -9076,7 +9076,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9084,9 +9084,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9094,38 +9094,38 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #3
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -9327,15 +9327,15 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9345,9 +9345,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9357,9 +9357,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9369,9 +9369,9 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9381,9 +9381,9 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9391,9 +9391,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9401,9 +9401,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9411,24 +9411,24 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -9640,12 +9640,12 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9653,48 +9653,48 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -9833,12 +9833,12 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9847,18 +9847,18 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -9866,34 +9866,34 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -10072,13 +10072,13 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10088,9 +10088,9 @@ THEN
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBOLA_D",[3379.2980],0) // Kobold Archer
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10098,9 +10098,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10109,9 +10109,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10119,9 +10119,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10129,9 +10129,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10139,7 +10139,7 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -10299,7 +10299,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10310,9 +10310,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10323,9 +10323,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10333,9 +10333,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10343,9 +10343,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10353,9 +10353,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -10363,9 +10363,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -10374,7 +10374,7 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -10601,7 +10601,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10613,9 +10613,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10627,9 +10627,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10638,9 +10638,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10649,9 +10649,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10660,9 +10660,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10671,9 +10671,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -10683,7 +10683,7 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -10912,7 +10912,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10925,9 +10925,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10940,9 +10940,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10954,9 +10954,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -10968,9 +10968,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -10978,9 +10978,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
@@ -10988,9 +10988,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11001,9 +11001,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11013,9 +11013,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11027,9 +11027,9 @@ THEN
     CreateCreature("KOBLDGD",[3379.2980],0) // Kobold Guard
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11042,7 +11042,7 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -11314,7 +11314,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11322,50 +11322,50 @@ THEN
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -11477,7 +11477,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11487,9 +11487,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11499,52 +11499,52 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -11680,7 +11680,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -11692,9 +11692,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -11706,9 +11706,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11717,9 +11717,9 @@ THEN
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11728,9 +11728,9 @@ THEN
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11739,9 +11739,9 @@ THEN
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11750,9 +11750,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #2
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11761,7 +11761,7 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -11862,7 +11862,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11873,9 +11873,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11886,9 +11886,9 @@ THEN
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11899,9 +11899,9 @@ THEN
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11912,9 +11912,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11925,9 +11925,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11938,9 +11938,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11951,9 +11951,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11964,9 +11964,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11977,9 +11977,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -11990,7 +11990,7 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -12161,7 +12161,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12174,9 +12174,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12188,9 +12188,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12202,9 +12202,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12216,9 +12216,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12230,9 +12230,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12244,9 +12244,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12258,9 +12258,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12272,9 +12272,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12286,9 +12286,9 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("SKOBCHIE",[3379.2980],0) // Kobold Chieftain
@@ -12300,7 +12300,7 @@ THEN
     CreateCreature("KOBSHA01",[3379.2980],0) // Kobold Shaman
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
@@ -12515,7 +12515,7 @@ IF
   Global("RandomSet33792980_1","%NorthNashkelRoad%",1)
 THEN
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12529,9 +12529,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12545,9 +12545,9 @@ THEN
     CreateCreature("KOBCOMM",[3379.2980],0) // Kobold Commando
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
     CreateCreature("KOBKAM01",[3379.2980],0) // Kobold Kamikaze
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12564,9 +12564,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12583,9 +12583,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12601,9 +12601,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12619,9 +12619,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12637,9 +12637,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12655,9 +12655,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12673,9 +12673,9 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #1
-    SetGlobal("SpawnReset33792980","AR6600",1)
+    SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
     CreateCreature("KOBCAP01",[3379.2980],0) // Kobold Captain
@@ -12691,7 +12691,7 @@ THEN
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBWIT01",[3379.2980],0) // Kobold Witch Doctor
     CreateCreature("KOBSCR01",[3379.2980],0) // Kobold Scribe
-    SetGlobalTimer("430033792980","AR6600",2400)
+    SetGlobalTimer("430033792980","%NorthNashkelRoad%",2400)
   RESPONSE #10
     SetGlobal("SpawnReset33792980","%NorthNashkelRoad%",1)
     SetGlobalTimer("430033792980","%NorthNashkelRoad%",EIGHT_HOURS)
