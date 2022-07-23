@@ -49,18 +49,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #20
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -106,18 +106,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -163,18 +163,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #28
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -230,18 +230,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #18
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -303,18 +303,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -400,18 +400,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -475,18 +475,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -543,18 +543,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #7
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -646,18 +646,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -750,18 +750,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #3
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -874,18 +874,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #7
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1018,18 +1018,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1123,18 +1123,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1216,18 +1216,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1328,18 +1328,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1450,18 +1450,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #8
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1592,18 +1592,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1745,18 +1745,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #8
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1857,18 +1857,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -1944,18 +1944,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2041,18 +2041,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2159,18 +2159,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2302,18 +2302,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2503,18 +2503,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2661,18 +2661,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2802,18 +2802,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -2947,18 +2947,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -3102,18 +3102,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -3290,18 +3290,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -3534,18 +3534,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -3710,18 +3710,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -3857,18 +3857,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -4023,18 +4023,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #10
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -4238,18 +4238,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -4492,18 +4492,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
@@ -4791,18 +4791,18 @@ THEN
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #15
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
-    CreateCreature("AMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
+    CreateCreature("SAMNIS3",[3969.669],0) // Amnish Soldier
     SetGlobalTimer("54003969669","%NashkelMines%",EIGHT_HOURS)
   RESPONSE #5
     SetGlobal("SpawnReset3969669","%NashkelMines%",1)
