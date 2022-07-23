@@ -407,6 +407,8 @@ BEGIN @1101 DESIGNATED 1000 LABEL "BGSpawn-Main"
     COPY ~%MOD_FOLDER%/cre/sironarc.CRE~ ~override~
         SAY 0x8 @1305
         SAY 0xc @1305
+    COPY_EXISTING ~amnis3.CRE~ ~override/samnis3.CRE~
+        WRITE_ASCII 0x280 ~~ #20
     // Compiling Scripts for Creatures
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/cre/sgnoll.baf~
     COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/cre/rogtro.baf~
