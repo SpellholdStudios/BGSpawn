@@ -1,4 +1,7 @@
-# 1.3.2: Graion Dilach
+ # 1.3.2: Graion Dilach
+- Fix: Dying spawned Amnian soldiers preventing mine entrance.
+
+ # 1.3.2: Graion Dilach
 - Fix: Substitute the remaining few BGT area names on EET.
 - Fix: Don't use BGT creature names where EET and BGT names differ.
 - Fix: Random Encounter component no longer breaks Dorn's fixed encounter.
